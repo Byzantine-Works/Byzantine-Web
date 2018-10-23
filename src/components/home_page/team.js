@@ -9,7 +9,7 @@ class Features extends Component{
     render(){
        
         return(
-            <div className="team_wrap">
+            <div className="team_wrap" id="Team">
                 <div className="container">
                     <h3>Team</h3>
                     <ul className="clearfix">

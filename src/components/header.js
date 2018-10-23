@@ -22,24 +22,22 @@ class Header extends Component{
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="/">Products</a>
+                                    <a href="#Products">Products</a>
                                     <div className="drop_prod">
-                                        <p><span><img className="grid__img layer" src={icon1} /></span> <a href="#">Payment products</a></p>
-                                        <p><span><img className="grid__img layer" src={icon5} /></span> <a href="#">Wallet products</a></p>
-                                        <p><span><img className="grid__img layer" src={icon2} /></span> <a href="#">Blockchain aggregation</a></p>
-                                        <p><span><img className="grid__img layer" src={icon6} /></span> <a href="#">Decentralized exchange</a></p>
-                                        <p><span><img className="grid__img layer" src={icon3} /></span> <a href="#">Liquidity pooling</a></p>
-                                        <p><span><img className="grid__img layer" src={icon7} /></span> <a href="#">Design lab</a></p>
-                                        <p><span><img className="grid__img layer" src={icon4} /></span> <a href="#">Security audits</a></p>
-                                        <p><span><img className="grid__img layer" src={icon8} /></span> <a href="#">Education</a></p>
+                                        <p><span><img className="grid__img layer" src={icon1} /></span> <a href="#Products">Payment products</a></p>
+                                        <p><span><img className="grid__img layer" src={icon5} /></span> <a href="#Products">Wallet products</a></p>
+                                        <p><span><img className="grid__img layer" src={icon2} /></span> <a href="#Products">Blockchain aggregation</a></p>
+                                        <p><span><img className="grid__img layer" src={icon6} /></span> <a href="#Products">Decentralized exchange</a></p>
+                                        <p><span><img className="grid__img layer" src={icon3} /></span> <a href="#Products">Liquidity pooling</a></p>
+                                        <p><span><img className="grid__img layer" src={icon7} /></span> <a href="#Products">Design lab</a></p>
+                                        <p><span><img className="grid__img layer" src={icon4} /></span> <a href="#Products">Security audits</a></p>
+                                        <p><span><img className="grid__img layer" src={icon8} /></span> <a href="#Products">Education</a></p>
                                     </div>    
                                 </li>
-                                <li><a href="/">Pricing</a></li>
-                                <li><a href="/">About</a></li>
-                                <li><a href="/">Blog</a></li>
-                                <li><a href="/">Contact</a></li>
+                                <li><a href="#Team">Team</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#contact">Contact</a></li>
                                 <li><a href="/">API</a></li>
-                                <li><a href="/" className="bgs">Test Net</a></li>
                             </ul>
                         </nav>
                     </div>

@@ -20,7 +20,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Byzanti</title>
+    <title>Byzantine | The Digital Asset Solution Provider</title>
   </head>
   <body class="light_version">
     <noscript>
@@ -46,7 +46,46 @@
 
 <script>
 
+(function() {
+        $(document).ready(function() {
+            return $('#contact-form').submit(function(e) {
+                var email, message, name;
+                frstname = document.getElementById('first_name');
+                lastemail = document.getElementById('last_name');
+                email = document.getElementById('email');
+                phone = document.getElementById('phone');
+                message = document.getElementById('inputMessage');
+                if (!frstname.value || !email.value || !message.value) {
+                    alertify.error('Please check your entries');
+                    return false;
+                } else {
+                    $.ajax({
+                        method: 'POST',
+                        url: 'contact.php',
+                        data: $('#contact-form').serialize(),
+                        datatype: 'json'
+                    });
+                    e.preventDefault();
+                    $(this).get(0).reset();
+                    return alertify.success('Message sent');
+                }
+            });
+        });
+        
+    }).call(this);
+
+
   $(document).ready(function(){
+
+    $(".light_version .header .menu_sections nav ul li a").on('click', function(event) {
+      event.preventDefault();
+      var target = $(this).attr('href');
+      console.log(target);
+      $('.mdl-layout__inner-container').animate({
+        scrollTop: ($(target).offset().top)
+      }, 2000);
+    });
+
   $(".trading_center .lefts table tr td.minus").click(function(event){
       event.preventDefault();
       var amount = $(this).html();

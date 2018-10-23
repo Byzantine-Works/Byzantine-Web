@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import earths from '../imgs/earths.png';
-import icon_main from '../imgs/icon_main2.png';
+import icon_main from '../imgs/icon_main3.png';
 import icon1 from '../imgs/prod_icon.png';
 import icon2 from '../imgs/prod_icon2.png';
 import icon3 from '../imgs/prod_icon3.png';
