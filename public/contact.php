@@ -7,7 +7,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 console.log($name);
 $formcontent="From: First Name: $frstname \n Message: $message";
-$recipient = "jamilahmad88771@gmail.com";
+$recipient = "hello@byzanti.ne";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
