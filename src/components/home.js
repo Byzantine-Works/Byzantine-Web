@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import Header from './header';
-import Banner from './home_page/main_banner';
-import Products from './home_page/products';
-import Team from './home_page/team';
-import Pricing from './home_page/pricing';
-import Contact from './home_page/contact';
+import Banner from './Home/mainBanner';
+import Products from './Home/products';
+import Team from './Home/team';
+import Pricing from './Home/pricing';
+import Contact from './Home/contact';
 import Footer from './footer';
 
 class Home extends Component{

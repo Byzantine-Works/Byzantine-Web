@@ -2288,6 +2288,147 @@ img.earth {animation-name: spin;
   border: 0px;
 }
 
+.productTitle {
+    text-align: center;
+    padding: 80px 0px 120px;
+}
+
+.productTitle h4 {
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.72);
+    margin-bottom: 16px;
+}
+
+.productTitle h6 {
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.productDetail {
+    padding: 60px 0px;
+}
+
+.productDetail li {
+    display: flex;
+    border-bottom: 1px solid #e9f7f8;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 9px 13px -14px #000;
+}
+
+.productDetail li div {
+}
+
+.productDetail li img {
+    width: 100%;
+}
+
+.productDetail li .detaail {
+    width: 50%;
+    padding: 45px 30px 0px 0px;
+}
+
+.productDetail li .prodImage {
+    width: 50%;
+}
+
+.productDetail li h3 {
+    font-family: 'Calibri', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+    color: #439ebe;
+}
+
+.productDetail li p {
+    font-size: 20px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+    line-height: 34px;
+    color: #7b7b7b;
+}
+
+
+.productDetail li.rightD .detaail {
+    padding: 45px 0px 0px 30px;
+}
+.prdoctBottom {background: url(components/imgs/shape.png);
+  background-size: 100% 100%;}
+.prdoctBottom ul li {
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.prdoctBottom ul {
+  display: flex;
+}
+
+.prdoctBottom ul li span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  line-height: 70px;
+  text-align: center;
+}
+
+.prdoctBottom ul li span img {
+  width: 48px;
+  vertical-align: middle;
+}
+
+.prdoctBottom ul li div {
+  width: 73%;
+  float: right;
+}
+
+.prdoctBottom ul li h5 {
+  font-family: 'Calibri', sans-serif;
+  margin: 0px 0px 10px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 27px;
+}
+
+.prdoctBottom ul li p {
+  font-family: 'Calibri', sans-serif;
+  margin: 0px 0px 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.prdoctBottom .productInner {
+  padding: 200px 0px;
+}
+
+.productDetail li:last-child {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  box-shadow: none;
+  padding-bottom: 10px;
+}
+
+
+.productPage .prdoctBottom {
+  position: relative;
+}
+.Product_wrap ul li .prod_inner h3 a {
+    color: #1a9bb0;
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 600px)
 {

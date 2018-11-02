@@ -21,35 +21,35 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon1} /></span> 
-                                <h3>Payment products </h3>
+                                <h3><a href="/payment">Payment products</a> </h3>
                                 <p>Send and receive crypto currency payments using any wallet via a simple to integrate and use “Stripe”-like user experience</p>
                             </div>
                         </li>
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon5} /></span> 
-                                <h3>Wallet products</h3>
+                                <h3><a href="/walletProducts">Wallet products</a></h3>
                                 <p>Open various kinds of wallets to deposit crypto currencies for your customers with one simple API call .</p>
                             </div>
                         </li>
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon2} /></span> 
-                                <h3>Blockchain aggregation </h3>
+                                <h3><a href="/blockchainAggregation">Blockchain aggregation</a> </h3>
                                 <p>Instantly authenticate to and integrate any blockchain as a service with one simple API call </p>
                             </div>
                         </li>
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon6} /></span> 
-                                <h3>Decentralized exchange </h3>
+                                <h3><a href="/decentralizedExchange">Decentralized exchange</a> </h3>
                                 <p>Truly decentralized exchange technology with trade AND order book information on the blockchain </p>
                             </div>
                         </li>
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon3} /></span> 
-                                <h3>Liquidity pooling</h3>
+                                <h3><a href="/liquidityPooling">Liquidity pooling</a></h3>
                                 <p>Create an exchange and instantly have the ability to make and fill your customers trades without fear of having enough users</p>
                             </div>
                         </li>
@@ -57,7 +57,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon7} /></span> 
-                                <h3>Design lab </h3>
+                                <h3><a href="/designLab">Design lab </a></h3>
                                 <p>Build blockchain products with us from idea to to delivery </p>
                             </div>
                         </li>
@@ -65,7 +65,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon4} /></span> 
-                                <h3>Security audits </h3>
+                                <h3><a href="/securityAudits">Security audits</a> </h3>
                                 <p>Ensure customer security and regulatory compliance </p>
                             </div>
                         </li>
@@ -73,7 +73,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li>
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon8} /></span> 
-                                <h3>Education</h3>
+                                <h3><a href="/education">Education</a></h3>
                                 <p>Access training boot camps, university hack-a-thons, solution hardening, bug bounties, and more </p>
                             </div>
                         </li>

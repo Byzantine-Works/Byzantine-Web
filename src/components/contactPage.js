@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from './header';
-import Contact from './home_page/contact';
+import Contact from './Home/contact';
 import Footer from './footer';
 
 class Home extends Component{

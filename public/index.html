@@ -46,38 +46,11 @@
 
 <script>
 
-(function() {
-        $(document).ready(function() {
-            return $('#contact-form').submit(function(e) {
-                var email, message, name;
-                frstname = document.getElementById('first_name');
-                lastemail = document.getElementById('last_name');
-                email = document.getElementById('email');
-                phone = document.getElementById('phone');
-                message = document.getElementById('inputMessage');
-                if (!frstname.value || !email.value || !message.value) {
-                    alertify.error('Please check your entries');
-                    return false;
-                } else {
-                    $.ajax({
-                        method: 'POST',
-                        url: 'contact.php',
-                        data: $('#contact-form').serialize(),
-                        datatype: 'json'
-                    });
-                    e.preventDefault();
-                    $(this).get(0).reset();
-                    return alertify.success('Message sent');
-                }
-            });
-        });
-        
-    }).call(this);
 
 
   $(document).ready(function(){
 
-    $(".light_version .header .menu_sections nav ul li a").on('click', function(event) {
+    $("a.scrol").on('click', function(event) {
       event.preventDefault();
       var target = $(this).attr('href');
       console.log(target);
@@ -159,6 +132,7 @@ $(".trading_head .trading .lefts p.ind").click(function(event){
 
 
 </script>
+<script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-83054564185460"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { if (typeof e.data === 'object') { return; } var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) { return; } switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; case "loadScript": var src = args[1]; if (args.length > 3) { src = args[1] + ':' + args[2]; } var script = document.createElement('script'); script.src = src; script.type = 'text/javascript'; document.body.appendChild(script); break; case "exitFullscreen": if (window.document.exitFullscreen) window.document.exitFullscreen(); else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen(); else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen(); else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen(); else if (window.document.msExitFullscreen) window.document.msExitFullscreen(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
 
   </body>
 </html>
