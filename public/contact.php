@@ -9,6 +9,6 @@ if($_POST){
     $formcontent="From: First Name: $frstname \n Last Name: $lastemail \n Phone: $phone \n Message: $message";
 
 //send email
-    mail("jamilahmad88771@gmail.com", "This is an email from:" .$email, $formcontent);
+    mail("hello@byzanti.ne", "This is an email from:" .$email, $formcontent);
 }
 ?>

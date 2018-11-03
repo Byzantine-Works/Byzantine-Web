@@ -24,26 +24,16 @@ class Home extends Component{
                         <ul>
                             <li className="clearfix">
                                 <div className="detaail">
-                                    <h3>Detail One</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h3>Teaching Is In Our DNA</h3>
+                                    <p>We organize hackathons, crowdsourcing solution hardening, bug bounty setups and smart contract verification</p>
+                                    <p>We also orchestrate chain specific coding boot camps with real-life applications to empower “zero-to-hero” mavens</p>
+                                    <p>Our drive is to create outreach within the crypto community and enabling product pitches</p>
                                 </div>
                                 <div className="prodImage">
                                     <img src={prodImage} />
                                 </div>
                             </li>
-                            
-                            <li className="clearfix rightD">
-                                <div className="prodImage">
-                                    <img src={prodImage} />
-                                </div>
-                                <div className="detaail">
-                                    <h3>Detail One</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                </div>
-                            </li>
-                        </ul>
+                         </ul>
                     </div>
                 </div>
                 <div className="prdoctBottom">
@@ -51,28 +41,8 @@ class Home extends Component{
                         <div className="container">
                             <ul>
                                 <li>
-                                    <span><img src={prodIcon} /> </span>
-                                    <div>
-                                        <h5>Detail Three</h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                    </div>
                                 </li>
                                 
-                                <li>
-                                    <span><img src={prodIcon} /> </span>
-                                    <div>
-                                        <h5>Detail Three</h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                    </div>
-                                </li>
-                                
-                                <li>
-                                    <span><img src={prodIcon} /> </span>
-                                    <div>
-                                        <h5>Detail Three</h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>

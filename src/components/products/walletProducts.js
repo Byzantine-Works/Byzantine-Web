@@ -15,7 +15,7 @@ class Home extends Component{
                     <div className="productTitle">
                         <div className="container">
                             <h4>Wallet products</h4>
-                            <h6>Open various kinds of wallets to deposit crypto currencies for your customers with one simple API call .</h6>
+                            <h6>Wallet integrations include a skinny wallet(stripe), a fat wallet, iOS wallet and airdrop utility for EOS. In the future, these integrations will be chain agnostic and support all the major DPOS blockchain ecosystems.</h6>
                         </div>
                     </div>
                 </div>
@@ -24,12 +24,12 @@ class Home extends Component{
                         <ul>
                             <li className="clearfix">
                                 <div className="detaail">
-                                    <h3>Detail One</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h3>EOS Stripe Wallet</h3>
+                                    <p>Simple, intuitive, secure and "stripe" like embeddable widget for an universal crypto wallet built on the Byzantine API Gateway. This fee-less wallet lowers the barriers for small businesses in accepting EOS and other crypto currencies.</p>
+
                                 </div>
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="stripe.png" />
                                 </div>
                             </li>
                             
@@ -38,9 +38,18 @@ class Home extends Component{
                                     <img src={prodImage} />
                                 </div>
                                 <div className="detaail">
-                                    <h3>Detail One</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h3>EOS Full Wallet</h3>
+                                    <p>Comprehensive EOS full wallet to enable all EOS related on-chain functionality such as account creation, voting, delegating, undelegating, buy/sell RAM, transfer and staking.</p>
+                                </div>
+                            </li>
+
+                            <li className="clearfix">
+                                <div className="detaail">
+                                    <h3>EOS Airdrop Utility</h3>
+                                    <p>Utility tool to simplify the process of Airdrops for token launchers. Provides a CLI interface and a web-interface to wizardify a sequential set of Q&A to create token-contract, deploy, issue tokens and airdrops. This utility also estimates RAM and stake requirement based on the tokenomics for EOS vs Token ratios.</p>
+                                </div>
+                                <div className="prodImage">
+                                    <img src="estimator.png" />
                                 </div>
                             </li>
                         </ul>
@@ -53,24 +62,24 @@ class Home extends Component{
                                 <li>
                                     <span><img src={prodIcon} /> </span>
                                     <div>
-                                        <h5>Detail Three</h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                                        <h5>Support</h5>
+                                        <p>Uses the Byzantine BaaS API Gateway to abstract away on-chain integrations, the walleting solutions currently supports EOS with support for TRON, ADA, LISK, ETH, XLM and more DPOS ecosystems in the works.</p>
                                     </div>
                                 </li>
                                 
                                 <li>
                                     <span><img src={prodIcon} /> </span>
                                     <div>
-                                        <h5>Detail Three</h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                                        <h5>Simple</h5>
+                                        <p>These solutions provide an abstraction from token contracts, validation of tokens with their respective contract hashes while ensuring transaction integrity and security.</p>
                                     </div>
                                 </li>
                                 
                                 <li>
                                     <span><img src={prodIcon} /> </span>
                                     <div>
-                                        <h5>Detail Three</h5>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                                        <h5>Secure</h5>
+                                        <p>Security is enabled through a combination of nonce, private salt, api-security-key and a cipher used by both the client and server for capturing the users signature. This prevents sybil and replay attacks and provides secure exchange of keys for on-chain calls.</p>
                                     </div>
                                 </li>
                             </ul>
