@@ -36,7 +36,7 @@ class Header extends Component{
                                 <li><a href="#Team" className="scrol">Team</a></li>
                                 <li><a href="#pricing" className="scrol">Pricing</a></li>
                                 <li><a href="#contact" className="scrol">Contact</a></li>
-                                <li><a href="http://api.byzanti.ne:8902/docs/">API</a></li>
+                                <li><a href="http://api.byzantine.works/docs/">API</a></li>
                             </ul>
                         </nav>
                     </div>
