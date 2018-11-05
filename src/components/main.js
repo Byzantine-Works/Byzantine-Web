@@ -9,7 +9,7 @@ import decentralizedExchange from './products/decentralizedExchange';
 import designLab from './products/designLab';
 import education from './products/education';
 import liquidityPooling from './products/liquidityPooling';
-import paymentProducts from './products/paymentProducts';
+import Community from './products/Community';
 import securityAudits from './products/securityAudits';
 import walletProducts from './products/walletProducts';
 
@@ -23,7 +23,7 @@ const Main = ()=> (
     <Route path='/designLab' component={ designLab } />
     <Route path='/education' component={ education } />
     <Route path='/liquidityPooling' component={ liquidityPooling } />
-    <Route path='/payment' component={ paymentProducts } />
+    <Route path='/community' component={ Community } />
     <Route path='/securityAudits' component={ securityAudits } />
     <Route path='/walletProducts' component={ walletProducts } />
 </Switch>

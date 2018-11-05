@@ -31,8 +31,7 @@ class Header extends Component{
                                         <p><span><img className="grid__img layer" src={icon7} /></span> <a href="/designLab" >Design lab</a></p>
                                         <p><span><img className="grid__img layer" src={icon4} /></span> <a href="/securityAudits">Security audits</a></p>
                                         <p><span><img className="grid__img layer" src={icon8} /></span> <a href="/education" >Education</a></p>
-                                        <p><span><img className="grid__img layer" src={icon1} /></span> <a href="/payment" >Community</a></p>
-                                        
+                                        <p><span><img className="grid__img layer" src={icon1} /></span> <a href="/community" >Community</a></p>
                                     </div>    
                                 </li>
                                 <li><a href="/#Team">Team</a></li>

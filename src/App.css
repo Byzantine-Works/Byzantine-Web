@@ -1706,14 +1706,6 @@ body {
 }
 .Product_wrap ul li a {
   text-decoration: none;
-  color: #169baf;
-  float: right;
-  font-weight: bold;
-  font-family: 'Calibri', sans-serif;
-  font-size: 16px;
-  position: absolute;
-  bottom: 20px;
-  right: 34px;
 }
 
 .Product_wrap ul li .prod_inner {
