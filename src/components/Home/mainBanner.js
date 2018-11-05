@@ -15,8 +15,8 @@ class Home_banner extends Component{
                 <div className="container clearfix">
                     <div className="banner_left">
                         <img src={earths} className="earth" alt="header" /> 
-                        <h1>The Digital Asset Solution Provider</h1>
-                        <p>We enable companies to provide best-in-class Digital Asset products to their customers for a fraction of the cost of building themselves.</p>
+                        <h1>The Blockchain Solution Provider</h1>
+                        <p>Eliminating the Barriers to Blockchain Adoption & Delivering on the promise of high-performance, enterprise-grade blockchain applications</p>
                     </div>
                     <div className="banner_right">
                         <div className="header-image animated text-center"> 

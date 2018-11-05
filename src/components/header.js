@@ -24,14 +24,14 @@ class Header extends Component{
                                 <li>
                                     <a href="#Products" className="scrol">Products</a>
                                     <div className="drop_prod">
-                                        <p><span><img className="grid__img layer" src={icon5} /></span> <a href="/walletProducts" >Wallet products</a> </p>
-                                        <p><span><img className="grid__img layer" src={icon2} /></span> <a href="/blockchainAggregation" >Blockchain aggregation</a></p>
-                                        <p><span><img className="grid__img layer" src={icon6} /></span> <a href="/decentralizedExchange" >Decentralized exchange</a></p>
-                                        <p><span><img className="grid__img layer" src={icon3} /></span> <a href="/liquidityPooling" >Liquidity pooling</a></p>
-                                        <p><span><img className="grid__img layer" src={icon7} /></span> <a href="/designLab" >Design lab</a></p>
-                                        <p><span><img className="grid__img layer" src={icon4} /></span> <a href="/securityAudits">Security audits</a></p>
-                                        <p><span><img className="grid__img layer" src={icon8} /></span> <a href="/education" >Education</a></p>
-                                        <p><span><img className="grid__img layer" src={icon1} /></span> <a href="/community" >Community</a></p>
+                                        <p><span><a href="/walletProducts" ><img className="grid__img layer" src={icon5} /></a></span> <a href="/walletProducts" >Wallet products</a> </p>
+                                        <p><span><a href="/blockchainAggregation" ><img className="grid__img layer" src={icon2} /></a></span> <a href="/blockchainAggregation" >Blockchain aggregation</a></p>
+                                        <p><span><a href="/decentralizedExchange" ><img className="grid__img layer" src={icon6} /></a></span> <a href="/decentralizedExchange" >Decentralized exchange</a></p>
+                                        <p><span><a href="/liquidityPooling" ><img className="grid__img layer" src={icon3} /></a></span> <a href="/liquidityPooling" >Liquidity pooling</a></p>
+                                        <p><span><a href="/designLab" ><img className="grid__img layer" src={icon7} /></a></span> <a href="/designLab" >Design lab</a></p>
+                                        <p><span><a href="/securityAudits"><img className="grid__img layer" src={icon4} /></a></span> <a href="/securityAudits">Security audits</a></p>
+                                        <p><span><a href="/education" ><img className="grid__img layer" src={icon8} /></a></span> <a href="/education" >Education</a></p>
+                                        <p><span><a href="/community" ><img className="grid__img layer" src={icon1} /></a></span> <a href="/community" >Community</a></p>
                                     </div>    
                                 </li>
                                 <li><a href="#Team" className="scrol">Team</a></li>
