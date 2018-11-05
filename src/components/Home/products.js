@@ -84,6 +84,16 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                                 </div>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="/payment">
+                                <div className="prod_inner">
+                                <span><img className="grid__img layer" src={icon1} /></span> 
+                                <h3>Community</h3>
+                                <p>Our commitment to giving back to the blockchain community</p>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

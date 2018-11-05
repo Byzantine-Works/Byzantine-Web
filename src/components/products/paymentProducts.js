@@ -14,8 +14,8 @@ class Home extends Component{
                     <Header />
                     <div className="productTitle">
                         <div className="container">
-                            <h4>Payment products</h4>
-                            <h6>Send and receive crypto currency payments using any wallet via a simple to integrate and use “Stripe”-like user experience</h6>
+                            <h4>Community</h4>
+                            <h6>Sharing the tools we've built to make every developer's life easier</h6>
                         </div>
                     </div>
                 </div>
@@ -24,12 +24,11 @@ class Home extends Component{
                         <ul>
                             <li className="clearfix">
                                 <div className="detaail">
-                                    <h3>Detail One</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h3>EOS Airdrop Utility</h3>
+                                    <p>Utility tool to simplify the process of Airdrops for token launchers. Provides a CLI interface and a web-interface to wizardify a sequential set of Q&A to create token-contract, deploy, issue tokens and airdrops. This utility also estimates RAM and stake requirement based on the tokenomics for EOS vs Token ratios.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="estimator.png" />
                                 </div>
                             </li>
                             
