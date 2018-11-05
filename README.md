@@ -1,4 +1,4 @@
-UberDex App Client
+<h1>Byzantine Website</h1>
 
 Available Scripts
 In the project directory, you can run:
