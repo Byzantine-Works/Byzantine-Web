@@ -26,9 +26,9 @@ blockquote, q {	quotes: none;}
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table {	border-collapse: collapse; border-spacing: 0; }
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
-
+::-moz-selection { background: #439ebe; color: #fff; text-shadow: none; }
+::selection { background: #439ebe; color: #fff; text-shadow: none; }
+p a {color: #439ebe;}
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
@@ -2412,7 +2412,9 @@ img.earth {animation-name: spin;
   font-size: 18px;
   line-height: 33px;
 }
-
+.prdoctBottom ul li p a {
+    color: #fff;
+}
 .prdoctBottom .productInner {
   padding: 200px 0px;
 }
