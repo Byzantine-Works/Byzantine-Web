@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Header from '../header';
+import Header from '../headerInner';
 import Footer from '../footer';
 import prodImage from '../imgs/productImg.png';
 import prodIcon from '../imgs/prod_icon.png';
