@@ -15,7 +15,7 @@ class Home extends Component{
                     <div className="productTitle">
                         <div className="container">
                             <h4>Wallet products</h4>
-                            <h6>Wallet integrations include a skinny wallet(stripe), a fat wallet, iOS wallet and airdrop utility for EOS. In the future, these integrations will be chain agnostic and support all the major DPOS blockchain ecosystems.</h6>
+                            <h6>Wallet integrations include a skinny wallet(stripe) and a fat wallet with full block producer voting, staking and more. </h6>
                         </div>
                     </div>
                 </div>
@@ -40,16 +40,6 @@ class Home extends Component{
                                 <div className="detaail">
                                     <h3>EOS Full Wallet</h3>
                                     <p>Comprehensive EOS full wallet to enable all EOS related on-chain functionality such as account creation, voting, delegating, undelegating, buy/sell RAM, transfer and staking.</p>
-                                </div>
-                            </li>
-
-                            <li className="clearfix">
-                                <div className="detaail">
-                                    <h3>EOS Airdrop Utility</h3>
-                                    <p>Utility tool to simplify the process of Airdrops for token launchers. Provides a CLI interface and a web-interface to wizardify a sequential set of Q&A to create token-contract, deploy, issue tokens and airdrops. This utility also estimates RAM and stake requirement based on the tokenomics for EOS vs Token ratios.</p>
-                                </div>
-                                <div className="prodImage">
-                                    <img src="estimator.png" />
                                 </div>
                             </li>
                         </ul>

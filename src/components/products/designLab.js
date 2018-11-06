@@ -40,13 +40,13 @@ class Home extends Component{
 
                             <li className="clearfix rightD">
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="labs1.png" />
                                 </div>
                                 <div className="detaail">
                                     <h3>We Work Hard For Our Partners</h3>
-                                    <p>Visioneering from ideation to solution blueprinting and roadmap building covering the execution lifecycle of DaPPs.</p>
-                                    <p>Enabling ICOs, Airdrops, and Air Grabs for new token platforms on any blockchain</p>
-                                    <p>Establishing token economics and assist in orchestrating white papers</p>
+                                    <p>We bring visioneering from ideation to solution blueprinting and roadmap building covering the execution lifecycle of DaPPs.</p>
+                                    <p>We enable ICOs, Airdrops, and Air Grabs for new token platforms on any blockchain</p>
+                                    <p>We establish token economics and assist in orchestrating white papers</p>
                                 </div>
                             </li>
 

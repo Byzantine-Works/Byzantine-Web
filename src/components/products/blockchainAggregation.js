@@ -22,9 +22,6 @@ class Home extends Component{
                 <div className="productDetail">
                     <div className="container">
                         <ul>
-                        	<li colspan="2">
-                        		<img width="1170" height="676" src="baas.png"/>
-                        	</li>
                             <li className="clearfix">
                                 <div className="detaail">
                                     <h3>Simplicity</h3>
@@ -32,13 +29,15 @@ class Home extends Component{
                                     <p>The API runs its own mainnet and load balances across the 21 block producers for high availability.  It compresses all requests and responses to ensure high throughput.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img width="569" height="323" src="baas.png"/>
                                 </div>
                             </li>
+
+
                             
                             <li className="clearfix rightD">
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="api.png" />
                                 </div>
                                 <div className="detaail">
                                     <h3>Abstraction</h3>

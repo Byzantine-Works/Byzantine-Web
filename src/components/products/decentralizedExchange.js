@@ -30,13 +30,13 @@ class Home extends Component{
                                     <p>Solving for technology complexity</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="exchange.png" />
                                 </div>
                             </li>
                             
                             <li className="clearfix rightD">
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="exchange1.png" />
                                 </div>
                                 <div className="detaail">
                                     <h3>Partner with Byzantine and future-proof yourself</h3>

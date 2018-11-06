@@ -26,7 +26,7 @@ class Header extends Component{
                                     <div className="drop_prod">
                                         <p><span><a href="/walletProducts" ><img className="grid__img layer" src={icon5} /></a></span> <a href="/walletProducts" >Wallet products</a> </p>
                                         <p><span><a href="/blockchainAggregation" ><img className="grid__img layer" src={icon2} /></a></span> <a href="/blockchainAggregation" >Blockchain aggregation</a></p>
-                                        <p><span><a href="/decentralizedExchange" ><img className="grid__img layer" src={icon6} /></a></span> <a href="/decentralizedExchange" >Decentralized exchange</a></p>
+                                        <p><span><a href="/decentralizedExchange" ><img className="grid__img layer" src={icon6} /></a></span> <a href="/decentralizedExchange" >Exchange Integrations</a></p>
                                         <p><span><a href="/liquidityPooling" ><img className="grid__img layer" src={icon3} /></a></span> <a href="/liquidityPooling" >Liquidity pooling</a></p>
                                         <p><span><a href="/designLab" ><img className="grid__img layer" src={icon7} /></a></span> <a href="/designLab" >Design lab</a></p>
                                         <p><span><a href="/securityAudits"><img className="grid__img layer" src={icon4} /></a></span> <a href="/securityAudits">Security audits</a></p>
