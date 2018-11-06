@@ -2190,7 +2190,6 @@ img.earth {animation-name: spin;
   width: 174px;
   margin-left: -21px;
 }
-
 .team_wrap ul li:nth-child(4) .inners figure img {
   width: 171px;
   margin-left: -2px;
@@ -2200,6 +2199,7 @@ img.earth {animation-name: spin;
   margin-left: -10px;
   width: 159px;
 }
+
 .mdl-layout__inner-container {
     width: 100% !important;
     display: block !important;
@@ -2434,6 +2434,9 @@ img.earth {animation-name: spin;
     color: #1a9bb0;
     text-decoration: none;
 }
+.contactBottom iframe {
+  width: 100% !important;
+}
 
 
 @media only screen and (max-width: 600px)
@@ -2657,6 +2660,58 @@ img.earth {}
 
 .footer ul li {
   margin: 0px 12px 12px;
+}
+
+
+.Product_wrap ul li .prod_inner span { margin-bottom:130px; }
+.productDetail li .detaail {
+  width: 100%;
+}
+
+.productDetail li .prodImage {
+  width: 100%;
+}
+
+.productDetail li {
+  display: block;
+}
+
+.prdoctBottom ul {
+  display: block;
+}
+
+.prdoctBottom ul li {
+  margin-bottom: 27px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.prdoctBottom {
+  background-image: linear-gradient(22deg,#0ca6bb,#0e9aad 18%,#359db9 30%,#59a0c5 47%,#7296c9 72%,rgba(141,122,218,.81)),linear-gradient(180deg,#049cb0,#049cb0);
+  background-position: 0 0,0 0;
+}
+
+.prdoctBottom .productInner {
+  padding: 50px 0px;
+}
+
+.prdoctBottom ul li div {
+  width: 70%;
+}
+.productDetail li img {
+  width: 100%;
+  height: auto;
+}
+.productTitle h6 {
+  width: 100%;
+  font-size: 13px;
+}
+
+.productTitle h4 {
+  font-size: 30px;
+}
+.productDetail li .detaail {
+  padding: 0px !important;
 }
 
 
