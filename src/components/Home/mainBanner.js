@@ -20,12 +20,12 @@ class Home_banner extends Component{
                     </div>
                     <div className="banner_right">
                         <div className="header-image animated text-center"> 
-                            <img src={icon_main} className="main_img" alt="header" /> 
-                            <img className="header-image-icon left-icon" src={icon1} alt="header-icon"/> 
-                            <img className="header-image-icon right-icon" src={icon2} alt="header-icon"/>
-                            <img className="header-image-icon top-icon" src={icon3} alt="header-icon"/> 
-                            <img className="header-image-icon top-left-icon" src={icon4} alt="header-icon"/>
-                            <img className="header-image-icon top-right-icon" src={icon5} alt="header-icon" />
+                            <a href="#Products" class="scrol"><img src={icon_main} className="main_img" alt="header" /> </a>
+                            <a href="#Products" class="scrol"><img className="header-image-icon left-icon" src={icon1} alt="header-icon"/> </a>
+                            <a href="#Products" class="scrol"><img className="header-image-icon right-icon" src={icon2} alt="header-icon"/></a>
+                            <a href="#Products" class="scrol"><img className="header-image-icon top-icon" src={icon3} alt="header-icon"/> </a>
+                            <a href="#Products" class="scrol"><img className="header-image-icon top-left-icon" src={icon4} alt="header-icon"/></a>
+                            <a href="#Products" class="scrol"><img className="header-image-icon top-right-icon" src={icon5} alt="header-icon" /></a>
                         </div>
                     </div>
                 </div>

@@ -32,16 +32,6 @@ class Home extends Component{
                                     <img src="stripe.png" />
                                 </div>
                             </li>
-                            
-                            <li className="clearfix rightD">
-                                <div className="prodImage">
-                                    <img src={prodImage} />
-                                </div>
-                                <div className="detaail">
-                                    <h3>EOS Full Wallet</h3>
-                                    <p>Comprehensive EOS full wallet to enable all EOS related on-chain functionality such as account creation, voting, delegating, undelegating, buy/sell RAM, transfer and staking.</p>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>

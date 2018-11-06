@@ -16,7 +16,7 @@ class Features extends Component{
                         <li>
                             <div className="inners">
                                 <figure>
-                                    <img src={team} />
+                                    <a href="https://www.linkedin.com/in/manjunathpreddy/"><img src={team} /></a>
                                 </figure>
                                 <h4>Manjunath Reddy</h4>
                                 <p>Founder, CTO</p>
@@ -25,7 +25,7 @@ class Features extends Component{
                         <li>
                             <div className="inners">
                                 <figure>
-                                    <img src={team2} />
+                                    <a href="https://www.linkedin.com/in/clarkhogan/"><img src={team2} /></a>
                                 </figure>
                                 <h4>Clark Hogan</h4>
                                 <p>Founder, CSO</p>
@@ -34,7 +34,7 @@ class Features extends Component{
                         <li>
                             <div className="inners">
                                 <figure>
-                                    <img src={team3} />
+                                    <a href="https://www.linkedin.com/in/anthonyemtman/"><img src={team3} /></a>
                                 </figure>
                                 <h4>Anthony Emtman</h4>
                                 <p>Partner</p>
@@ -43,7 +43,7 @@ class Features extends Component{
                         <li>
                             <div className="inners">
                                 <figure>
-                                    <img src={team4} />
+                                    <a href="https://www.linkedin.com/in/timothytlewis/"><img src={team4} /></a>
                                 </figure>
                                 <h4>Timothy Lewis</h4>
                                 <p>Partner</p>
@@ -52,7 +52,7 @@ class Features extends Component{
                         <li>
                             <div className="inners">
                                 <figure>
-                                    <img src={team5} />
+                                    <a href="https://www.linkedin.com/in/travis-kling-ikigai/"><img src={team5} /></a>
                                 </figure>
                                 <h4>Travis Kling</h4>
                                 <p>Partner</p>

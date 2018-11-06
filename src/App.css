@@ -1942,10 +1942,10 @@ img.earth {animation-name: spin;
 }
 .main_banner .banner_left img.earth {
   position: absolute;
-  top: -123px;
-  left: -56px;
-  opacity: .3;
-  width: 68%;
+  top: -328px;
+  left: -278px;
+  opacity: 1;
+  width: 106%;
 }
 
 .main_banner .banner_left {
@@ -1990,7 +1990,7 @@ img.earth {animation-name: spin;
 }
 
 .main_banner .banner_right .header-image:hover img.header-image-icon {
-    animation: jumping 1s linear 0s infinite alternate;
+    animation: jumping 0s linear 0s infinite alternate;
 }
 .main_banner .banner_right {
   position: relative;
@@ -2173,12 +2173,12 @@ img.earth {animation-name: spin;
   border: 0px;
 }
 .team_wrap ul li .inners figure {
-  width: 83px;
-  height: 83px;
+  width: 150px;
+  height: 150px;
   padding: 0px;
   overflow: hidden;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 12%;
   margin-bottom: 10px;
 }
 
@@ -2187,18 +2187,18 @@ img.earth {animation-name: spin;
   border: 0px;
   padding: 0px;
   margin: 0px;
-  width: 139px;
-  margin-left: -29px;
+  width: 174px;
+  margin-left: -21px;
 }
 
 .team_wrap ul li:nth-child(4) .inners figure img {
-  width: 103px;
+  width: 171px;
   margin-left: -2px;
 }
 
 .team_wrap ul li:nth-child(5) .inners figure img {
   margin-left: -10px;
-  width: 103px;
+  width: 159px;
 }
 .mdl-layout__inner-container {
     width: 100% !important;
@@ -2333,7 +2333,7 @@ img.earth {animation-name: spin;
 }
 
 .productDetail li img {
-    width: 100%;
+    width: 75%;
 }
 
 .productDetail li .detaail {
