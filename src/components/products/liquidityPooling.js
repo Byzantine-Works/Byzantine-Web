@@ -28,7 +28,7 @@ class Home extends Component{
                                     <p>A multi-chain Decentralized Exchange order liquidity protocol designed for high-performance, Blockchain Virtual Machine compatibility, decentralized data exchange, and complete transparency to off-chain market and trade data across UberDEX nodes as well as licensed Decentralized Exchange partners. The protocol enables all exchanges on the network to share liquidity pools while maintaining their high-performance characteristics and native exchange token compatibility across networks.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src={prodImage} />
+                                    <img src="bydex.png" />
                                 </div>
                             </li>
                             

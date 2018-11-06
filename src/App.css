@@ -2190,6 +2190,7 @@ img.earth {animation-name: spin;
   width: 174px;
   margin-left: -21px;
 }
+
 .team_wrap ul li:nth-child(4) .inners figure img {
   width: 171px;
   margin-left: -2px;
@@ -2199,7 +2200,6 @@ img.earth {animation-name: spin;
   margin-left: -10px;
   width: 159px;
 }
-
 .mdl-layout__inner-container {
     width: 100% !important;
     display: block !important;
@@ -2433,9 +2433,6 @@ img.earth {animation-name: spin;
 .Product_wrap ul li .prod_inner h3 a {
     color: #1a9bb0;
     text-decoration: none;
-}
-.contactBottom iframe {
-  width: 100% !important;
 }
 
 

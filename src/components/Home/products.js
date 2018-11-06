@@ -21,7 +21,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li><a href="/walletProducts">
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon5} /></span> 
-                                <h3>Wallet products</h3>
+                                <h3>Wallet Products</h3>
                                 <p>Send and receive crypto currency payments and open various kinds of wallets for your customers via simple html widgets.</p>
                                 
                             </div></a>
@@ -29,7 +29,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li><a href="/blockchainAggregation">
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon2} /></span> 
-                                <h3>Anychain BaaS Blockchain aggregation</h3>
+                                <h3>Anychain BaaS Blockchain API Middleware Platform</h3>
                                 <p>Instantly authenticate to and integrate any blockchain as a service with one simple API call </p>
                                 
                             </div></a>
@@ -37,15 +37,15 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li> <a href="/decentralizedExchange">
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon6} /></span> 
-                                <h3>Decentralized exchange </h3>
-                                <p>Truly decentralized exchange technology with trade AND order book information on the blockchain </p>
+                                <h3>Exchange Integrations </h3>
+                                <p>Focus your development teams on differentiating features, not new blockchain integrations </p>
                                
                             </div></a>
                         </li>
                         <li><a href="/liquidityPooling">
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon3} /></span> 
-                                <h3>Liquidity pooling</h3>
+                                <h3>Liquidity Pooling</h3>
                                 <p>Create an exchange and instantly have the ability to make and fill your customers trades without fear of having enough users</p>
                                 
                             </div></a>
@@ -54,7 +54,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li><a href="/designLab">
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon7} /></span> 
-                                <h3>Design lab </h3>
+                                <h3>Design Lab </h3>
                                 <p>Build blockchain products with us from idea to to delivery </p>
                                 
                             </div></a>
@@ -63,7 +63,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                         <li><a href="/securityAudits">
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon4} /></span> 
-                                <h3>Security audits </h3>
+                                <h3>Security Audits </h3>
                                 <p>Ensure customer security and regulatory compliance </p>
                             </div></a>
                         </li>

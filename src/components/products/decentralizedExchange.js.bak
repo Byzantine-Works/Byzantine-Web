@@ -14,8 +14,9 @@ class Home extends Component{
                     <Header />
                     <div className="productTitle">
                         <div className="container">
-                            <h4>Blockchain Integrations For Exchanges</h4>
-                            <h6>Instant market enablement for digital asset exchanges and banks</h6>
+                            <h4>Decentralized exchange with UberDEX</h4>
+                            <h6>
+Truly decentralized exchange technology with trade AND order book information on the blockchain</h6>
                         </div>
                     </div>
                 </div>
@@ -24,35 +25,23 @@ class Home extends Component{
                         <ul>
                             <li className="clearfix">
                                 <div className="detaail">
-                                    <h3>Why Stand Up A Stack For Each New Blockchain?</h3>
-                                    <p>Digital assets exchanges and banks are focused on beating their rivals, making markets, acquiring customers, and increasing transaction volume</p>
-                                    <p><h4><b>NOT</b></h4></p>
-                                    <p>Solving for technology complexity</p>
+                                    <h3>No Hybrids Here</h3>
+                                    <p>UberDEX’s patent-pending decentralized architecture provides the highest level of autonomous, secure, and reliable multi-chain token trading ecosystem that is designed from the ground up to deliver the performance of Centralized Exchanges in a Decentralized Exchange network. </p>
+                                    <p>Algorithmic-trading ready right out of the box?  Yes please!  The unique design pairs transparent low-latency global orderbooks and trading engines with a decentralized chain-specific Smart Contract. The global orderbook infrastructure augments the trading experience, while the smart contract handles all funds, trade authorization, and final settlement in a completely autonomous and decentralized manner.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="exchange.png" />
+                                    <img src={prodImage} />
                                 </div>
                             </li>
                             
                             <li className="clearfix rightD">
                                 <div className="prodImage">
-                                    <img src="exchange1.png" />
+                                    <img src={prodImage} />
                                 </div>
                                 <div className="detaail">
-                                    <h3>Partner with Byzantine and future-proof yourself</h3>
-                                    <p>Integrations completed in less than a week at a 94% cost savings compared to the fully loaded cost of having your development teams perform the work.</p>
-                                    <p>Enables revenue streams from new blockchains instantly via a plug-n-play API gateway.</p>
-                                    <p>Enables availability of new digital assets for instant market making.</p>
-                                    <p>Exchanges can now focus efforts on increasing trading volume, assets under management, and differentiation.</p>
-                                    <p>The <a href="/liquidityPooling">Liquid Digital Asset Relay (LDAR)</a> can be added to the integration, allowing exchanges to participate in global liquidity pool and make/take orders from the pool. This enables a 2-3 week window from cold start to launching a new Exchange business, opening trades on any supported base token and stable coin.</p>
-                                </div>
-                            </li>
-                            <li className="clearfix">
-                                <div className="prodImage">
-                                    <img src="idex.png" />
-                                </div>
-                                <div className="prodImage">
-                                    <img src="mbaex.png" />
+                                    <h3>White Labeled</h3>
+                                    <p>UberDEX provides a customizable, secure, robust, white-labeled Decentralized Exchange ecosystem that couples with the Byzantine BaaS API for resiliency and high availability. This platform encapsulates exchange infrastructure and smart contracts to deliver a high-performance, enterprise grade, autonomous and decentralized exchange supporting various chains. The solution augments real-time trading DApps with on-chain instant and transparent settlement.</p>
+                                    <p>UberDEX uses the Byzantine Liquidity Pooling product (Liquid Digital Asset Relay or EOS-LDAR) to participate in global liquidity pool and make/take orders from the pool. This enables a 2-3 week window from cold start to launching a new Decentralized Exchange business, opening trades on any supported base token and stable coins.</p>
                                 </div>
                             </li>
                         </ul>
