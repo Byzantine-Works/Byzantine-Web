@@ -1944,7 +1944,7 @@ img.earth {animation-name: spin;
   position: absolute;
   top: -123px;
   left: -56px;
-  opacity: .3;
+  opacity: .15;
   width: 68%;
 }
 
@@ -2173,8 +2173,8 @@ img.earth {animation-name: spin;
   border: 0px;
 }
 .team_wrap ul li .inners figure {
-  width: 83px;
-  height: 83px;
+  width: 130px;
+  height: 130px;
   padding: 0px;
   overflow: hidden;
   text-align: center;
@@ -2188,18 +2188,19 @@ img.earth {animation-name: spin;
   padding: 0px;
   margin: 0px;
   width: 139px;
-  margin-left: -29px;
+  margin-left: -8px;
 }
-
 .team_wrap ul li:nth-child(4) .inners figure img {
-  width: 103px;
-  margin-left: -2px;
+  width: 135px;
+  margin-left: 0px;
 }
 
 .team_wrap ul li:nth-child(5) .inners figure img {
-  margin-left: -10px;
-  width: 103px;
+  margin-left: -1px;
+  width: 133px;
+  margin-top: -1px;
 }
+
 .mdl-layout__inner-container {
     width: 100% !important;
     display: block !important;
@@ -2433,6 +2434,9 @@ img.earth {animation-name: spin;
 .Product_wrap ul li .prod_inner h3 a {
     color: #1a9bb0;
     text-decoration: none;
+}
+.contactBottom iframe {
+  width: 100% !important;
 }
 
 

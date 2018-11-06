@@ -29,7 +29,18 @@ class Home extends Component{
                                     <p>Our audit methodology regresses design patterns, static and manual analysis, network behavior assessments, memory and cpu optimizations and more to produce a detailed report covering the results of our analysis accross contract behaviors, token allocations, and explicit vulnerability checks to detail the issues discovered from informational to high severity threat levels</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="audit.png" />
+                                    <img src={prodImage} />
+                                </div>
+                            </li>
+                            
+                            <li className="clearfix rightD">
+                                <div className="prodImage">
+                                    <img src={prodImage} />
+                                </div>
+                                <div className="detaail">
+                                    <h3>Detail One</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                                 </div>
                             </li>
                         </ul>
@@ -40,6 +51,27 @@ class Home extends Component{
                         <div className="container">
                             <ul>
                                 <li>
+                                    <span><img src={prodIcon} /> </span>
+                                    <div>
+                                        <h5>Detail Three</h5>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <span><img src={prodIcon} /> </span>
+                                    <div>
+                                        <h5>Detail Three</h5>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <span><img src={prodIcon} /> </span>
+                                    <div>
+                                        <h5>Detail Three</h5>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
