@@ -55,7 +55,7 @@ with an automated back office and servicing <br /> to reduce costs and increase 
                             <div className="prod_inner">
                                 <span><img className="grid__img layer" src={icon7} /></span> 
                                 <h3>Design Lab </h3>
-                                <p>Build blockchain products with us from idea to to delivery </p>
+                                <p>Build blockchain products with us from idea to delivery </p>
                                 
                             </div></a>
                         </li>

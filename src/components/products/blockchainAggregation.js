@@ -29,14 +29,14 @@ class Home extends Component{
                                     <p>The API runs its own mainnet and load balances across the 21 block producers for high availability.  It compresses all requests and responses to ensure high throughput.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img width="569" height="323" src="baas.png"/>
+                                    <span><img src="baaswhite.png" /></span> 
                                 </div>
                             </li>
 
 
                             
                             <li className="clearfix rightD">
-                                <div className="prodImage">
+                                <div className="prodImageSc">
                                     <img src="api.png" />
                                 </div>
                                 <div className="detaail">

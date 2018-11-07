@@ -28,19 +28,19 @@ class Home extends Component{
                                     <p>Digital assets exchanges and banks are focused on beating their rivals, making markets, acquiring customers, and increasing transaction volume</p>
                                     <p><h4><b>NOT</b></h4></p>
                                     <p>Solving for technology complexity</p>
+                                    <p>Our platform integrations are usually completed in less than two weeks at a 94% cost savings compared to the fully loaded cost of having your development teams perform the work.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="exchange.png" />
+                                    <span><img src="integration.png" /></span> 
                                 </div>
                             </li>
                             
                             <li className="clearfix rightD">
-                                <div className="prodImage">
+                                <div className="prodImageSc">
                                     <img src="exchange1.png" />
                                 </div>
                                 <div className="detaail">
                                     <h3>Partner with Byzantine and future-proof yourself</h3>
-                                    <p>Integrations completed in less than a week at a 94% cost savings compared to the fully loaded cost of having your development teams perform the work.</p>
                                     <p>Enables revenue streams from new blockchains instantly via a plug-n-play API gateway.</p>
                                     <p>Enables availability of new digital assets for instant market making.</p>
                                     <p>Exchanges can now focus efforts on increasing trading volume, assets under management, and differentiation.</p>
@@ -48,10 +48,11 @@ class Home extends Component{
                                 </div>
                             </li>
                             <li className="clearfix">
-                                <div className="prodImage">
-                                    <img src="idex.png" />
+                                <div className="detaail">
+                                    <h3>Customers Include</h3>
                                 </div>
-                                <div className="prodImage">
+                                <div className="prodImageSc">
+                                    <img src="idex.png" />
                                     <img src="mbaex.png" />
                                 </div>
                             </li>

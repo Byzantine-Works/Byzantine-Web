@@ -27,19 +27,14 @@ class Home extends Component{
                                     <h3>Empowering Blockchain Clients - From Ideation To Solution Advisory</h3>
                                     <h4>Mission</h4>
                                     <p>We ensure the success of our clients in building and deploying Infrastructure, Smart Contracts, and Decentralized Applications (DApp’s) onto high performance Blockchains and Distributed Ledger Technologies (DLT’s).</p>
-                                    <h4>The Problem</h4>
-                                    <p>83% of our target clients face significant roadblocks holding them back from integrating Blockchains and DLT’s into their businesses. The majority of those roadblocks are not related to IT but rather politics, budget, time, and staff.</p>
-                                    <h4>Our Solution</h4>
-                                    <p>Our Blockchain and DLT subject matter expertise, tightly coupled with an Application Lifecycle Management process will dramatically reduce the cost, complexity, and time to value.</p>
-                                    <p>We enable businesses of any size to engage one vendor for Scoping, Software Development, Support, and Maintenance, dramatically reducing friction and ensuring client satisfaction.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="labs.png" />
+                                    <span><img src="labs.png" /></span> 
                                 </div>
                             </li>
 
                             <li className="clearfix rightD">
-                                <div className="prodImage">
+                                <div className="prodImageSc">
                                     <img src="labs1.png" />
                                 </div>
                                 <div className="detaail">
@@ -47,6 +42,9 @@ class Home extends Component{
                                     <p>We bring visioneering from ideation to solution blueprinting and roadmap building covering the execution lifecycle of DaPPs.</p>
                                     <p>We enable ICOs, Airdrops, and Air Grabs for new token platforms on any blockchain</p>
                                     <p>We establish token economics and assist in orchestrating white papers</p>
+                                    <h4>Our Solutioning Approach</h4>
+                                    <p>Our Blockchain and DLT subject matter expertise, tightly coupled with an Application Lifecycle Management process dramatically reduces cost, complexity, and time to value.</p>
+                                    <p>We enable businesses of any size to engage one vendor for Scoping, Software Development, Support, and Maintenance, dramatically reducing friction and ensuring client satisfaction.</p>
                                 </div>
                             </li>
 

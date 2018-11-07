@@ -1734,6 +1734,8 @@ body {
 .Product_wrap ul li .prod_inner {
   min-height: 172px;
 }
+
+
 .Price_wrap a {
   margin: 0px;
   background-image: linear-gradient(22deg,#0ca6bb,#0e9aad 18%,#359db9 30%,#59a0c5 47%,#7296c9 72%,rgba(141,122,218,.81)),linear-gradient(180deg,#049cb0,#049cb0);
@@ -2333,7 +2335,7 @@ img.earth {animation-name: spin;
 }
 
 .productDetail li img {
-    width: 75%;
+    width: 100%;
 }
 
 .productDetail li .detaail {
@@ -2341,8 +2343,36 @@ img.earth {animation-name: spin;
     padding: 45px 30px 0px 0px;
 }
 
-.productDetail li .prodImage {
+.productDetail li .prodImageSc {
     width: 50%;
+}
+
+.productDetail ul li .prodImage span {
+  background: rgba(13, 161, 181, 0.33);
+  background-image: linear-gradient(22deg,#0ca6bb,#0e9aad 18%,#359db9 30%,#59a0c5 47%,#7296c9 72%,rgba(141,122,218,.81)),linear-gradient(180deg,#049cb0,#049cb0);
+  background-position: 0 0,0 0;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+
+  border: 3px solid #fff;
+  text-align: center;
+  line-height: 70px;
+  margin-right: 21px;
+  box-shadow: 0px 0px 12px 1px #7387d0;
+  position: relative;
+  top:46px;
+  left:137px;
+}
+
+.productDetail ul li .prodImage img {
+  position: relative;
+  top:47px;
+  left:0px;
+  width:65%;
+
 }
 
 .productDetail li h3 {

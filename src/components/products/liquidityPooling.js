@@ -28,17 +28,17 @@ class Home extends Component{
                                     <p>A multi-chain Decentralized Exchange order liquidity protocol designed for high-performance, Blockchain Virtual Machine compatibility, decentralized data exchange, and complete transparency to off-chain market and trade data across UberDEX nodes as well as licensed Decentralized Exchange partners. The protocol enables all exchanges on the network to share liquidity pools while maintaining their high-performance characteristics and native exchange token compatibility across networks.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="bydex.png" />
+                                    <span><img src="ldar.png" /></span> 
                                 </div>
                             </li>
                             
                             <li className="clearfix rightD">
-                                <div className="prodImage">
+                                <div className="prodImageSc">
                                     <img src="bancor.png" />
                                 </div>
                                 <div className="detaail">
                                     <h3>From Cold Start To At Scale</h3>
-                                    <p>Partnered with Bancor.network for cold start and at-scale limitless liquidity.</p>
+                                    <p>Partnered with <a href="http://bancor.network">Bancor.network</a> for cold start and at-scale limitless liquidity.</p>
                                 </div>
                             </li>
                         </ul>

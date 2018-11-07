@@ -30,7 +30,7 @@ class Home extends Component{
                                     <p>Our drive is to create outreach within the crypto community and enabling product pitches</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="hack.png" />
+                                    <span><img src="hack.png" /></span> 
                                 </div>
                             </li>
                          </ul>

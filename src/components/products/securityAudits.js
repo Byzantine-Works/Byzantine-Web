@@ -29,7 +29,7 @@ class Home extends Component{
                                     <p>Our audit methodology regresses design patterns, static and manual analysis, network behavior assessments, memory and cpu optimizations and more to produce a detailed report covering the results of our analysis accross contract behaviors, token allocations, and explicit vulnerability checks to detail the issues discovered from informational to high severity threat levels</p>
                                 </div>
                                 <div className="prodImage">
-                                    <img src="audit.png" />
+                                    <span><img src="audit.png" /></span> 
                                 </div>
                             </li>
                         </ul>
