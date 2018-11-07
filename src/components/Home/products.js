@@ -13,10 +13,8 @@ class Home_banner extends Component{
         return(
             <div className="Product_wrap" id="Products">
                 <div className="container">
-                    <h3>Products</h3>
-                    <p>Byzantine exists to simplify Blockchains. We strive to build state-of-the-art
-blockchain products. Our <br/> vision is to build an intuitively designed suite of services
-with an automated back office and servicing <br /> to reduce costs and increase access</p>
+                    <h3>Products And Services</h3>
+                    <p>Byzantine exists to simplify Blockchains.  We are a technology solutioning design consultancy servicing customers, building an intuitive suite of products and services to reduce costs and increase access</p>
                     <ul className="clearfix">
                         <li><a href="/walletProducts">
                             <div className="prod_inner">
