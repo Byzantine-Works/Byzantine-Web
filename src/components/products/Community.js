@@ -15,7 +15,7 @@ class Home extends Component{
                     <div className="productTitle">
                         <div className="container">
                             <h4>Community</h4>
-                            <h6>Sharing the tools we've built to make every developer's life easier</h6>
+                            <h6>Powered by <a href="http://libertyblock.io">Liberty Block</a>, these are the tools we've built to make every developer's life easier</h6>
                         </div>
                     </div>
                 </div>
