@@ -9,7 +9,7 @@ class Home extends Component{
     render(){
        
         return(
-            <div className="productPage">
+            <div className="productPage decentEx">
                 <div className="wellcom_banner">
                     <Header />
                     <div className="productTitle">

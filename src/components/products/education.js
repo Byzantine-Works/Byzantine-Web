@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
 import prodImage from '../imgs/productImg.png';
+import products3 from '../imgs/products7.png';
 import prodIcon from '../imgs/prod_icon.png';
 import Contact from '../Home/contact';
 
@@ -29,8 +30,8 @@ class Home extends Component{
                                     <p>We also orchestrate chain specific coding boot camps with real-life applications to empower “zero-to-hero” mavens</p>
                                     <p>Our drive is to create outreach within the crypto community and enabling product pitches</p>
                                 </div>
-                                <div className="prodImage">
-                                    <span><img src="hack.png" /></span> 
+                                <div className="prodImage" style={{'textAlign': 'center'}}>
+                                    <img src={products3} />
                                 </div>
                             </li>
                          </ul>

@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
-import prodImage from '../imgs/productImg.png';
+import prodImage from '../imgs/asset3.png';
+import prodImage2 from '../imgs/asset4.png';
 import prodIcon from '../imgs/prod_icon.png';
+import idex from '../imgs/idex.png';
+import mbaex from '../imgs/mbaex.png';
 import Contact from '../Home/contact';
 
 class Home extends Component{
     render(){
        
         return(
-            <div className="productPage">
+            <div className="productPage walletProducts">
                 <div className="wellcom_banner">
                     <Header />
                     <div className="productTitle">
@@ -22,30 +25,66 @@ class Home extends Component{
                 <div className="productDetail">
                     <div className="container">
                         <ul>
+                            
                             <li className="clearfix">
                                 <div className="detaail">
-                                    <h3>Simplicity</h3>
-                                    <p>The Byzantine EOS BaaS API provides a simplified abstraction from the complexity of token contract integrations, validating tokens against their respective contract hashes, ensuring token trasfers are secure, preventing replay attacks, and monitoring the fastest routes to the EOS blockchain.</p>
-                                    <p>The API runs its own mainnet and load balances across the 21 block producers for high availability.  It compresses all requests and responses to ensure high throughput.</p>
+                                    <h3>THE EXCHANGE INTEGRATION PROBLEM</h3>
+                                    <p>Exchanges must stand up a new mainnet for every new
+                                    blockchain</p>
+                                    <p>They are forced to solve for technology complexity instead of
+                                    augmenting order books, acquiring new users and building
+                                    new markets</p>
+                                    <p>This hinders business scalability and growth</p>
                                 </div>
-                                <div className="prodImage">
-                                    <span><img src="baaswhite.png" /></span> 
+                                <div className="prodImageSc">
+                                    <img src={prodImage} />
                                 </div>
                             </li>
-
-
+                            <li className="clearfix">
+                                <div className="detaail lastFrst">
+                                    <h3>Solution</h3>
+                                    <p>BaaS Platform Digital Exchange Enablement:</p>
+                                    <p>High performance cross chain token swap/trading ecosystem
+                                    for centralized and decentralized exchanges</p>
+                                    <p>Support for non-fungible tokens and algorithmic trading</p>
+                                    <p>Optional integration with the Liquid Digital Asset Relay Platform</p>
+                                 </div>
+                                <div className="prodImageSc lasts">
+                                    <img src={prodImage2} />
+                                </div>
+                            </li>
+                            
+                            <li className="clearfix">
+                                <div className="detaail">
+                                    <h3>Why Stand Up A Stack For Each New Blockchain?</h3>
+                                    <p>Digital assets exchanges and banks are focused on beating their rivals, making markets, acquiring customers, and increasing transaction volume</p>
+                                    <p><h4><b>NOT</b></h4></p>
+                                    <p>Solving for technology complexity</p>
+                                    <p>Our platform integrations are usually completed in less than two weeks at a 94% cost savings compared to the fully loaded cost of having your development teams perform the work.</p>
+                                </div>
+                                <div className="prodImage">
+                                </div>
+                            </li>
                             
                             <li className="clearfix rightD">
                                 <div className="prodImageSc">
-                                    <img src="api.png" />
+                                    <img src="exchange1.png" />
                                 </div>
                                 <div className="detaail">
-                                    <h3>Abstraction</h3>
-                                    <p>The Byzantine EOS BaaS API streamlines interactions with the blockchain via features such as:</p>
-                                    <p>Simplifies Airdrop and Airgrab Token balances, token precision issues, accessing smart contracts, creation of new accounts, delegating account stakes, voting for Block Producers, retrieving RAM pricing, buying and selling RAM, and accessing account transaction history</p>
-									<p>Aggregates decentralized exchange market data across EOS and derivative assets</p>
-                                    <p>Enables token transfer with or without Scatter</p>
-									<p>Provides an embeddable 'stripe' wallet for EOS that can be customized to work with QR codes on web, mobile or POS systems for accepting EOS and derivative digital assets</p>
+                                    <h3>Partner with Byzantine and future-proof yourself</h3>
+                                    <p>Enables revenue streams from new blockchains instantly via a plug-n-play API gateway.</p>
+                                    <p>Enables availability of new digital assets for instant market making.</p>
+                                    <p>Exchanges can now focus efforts on increasing trading volume, assets under management, and differentiation.</p>
+                                    <p>The <a href="/liquidityPooling">Liquid Digital Asset Relay (LDAR)</a> can be added to the integration, allowing exchanges to participate in global liquidity pool and make/take orders from the pool. This enables a 2-3 week window from cold start to launching a new Exchange business, opening trades on any supported base token and stable coin.</p>
+                                </div>
+                            </li>
+                            <li className="clearfix">
+                                <div className="detaail">
+                                    <h3>Customers Include</h3>
+                                </div>
+                                <div className="prodImageSc">
+                                    <img src={idex} />
+                                    <img src={mbaex} />
                                 </div>
                             </li>
                         </ul>

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
 import prodImage from '../imgs/productImg.png';
+import products3 from '../imgs/products7.png';
 import prodIcon from '../imgs/prod_icon.png';
 import Contact from '../Home/contact';
 
@@ -28,8 +29,8 @@ class Home extends Component{
                                     <p>We employ a team of mavens using an arsenal of automated tests and code reviews to put your smart contract through its paces.</p>
                                     <p>Our audit methodology regresses design patterns, static and manual analysis, network behavior assessments, memory and cpu optimizations and more to produce a detailed report covering the results of our analysis accross contract behaviors, token allocations, and explicit vulnerability checks to detail the issues discovered from informational to high severity threat levels</p>
                                 </div>
-                                <div className="prodImage">
-                                    <span><img src="audit.png" /></span> 
+                                <div className="prodImage" style={{'textAlign': 'center'}}>
+                                   <img src={products3} />
                                 </div>
                             </li>
                         </ul>

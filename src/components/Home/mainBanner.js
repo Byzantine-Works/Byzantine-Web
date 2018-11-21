@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import earths from '../imgs/earths.png';
 import icon_main from '../imgs/icon_main3.png';
-import icon1 from '../imgs/prod_icon.png';
-import icon2 from '../imgs/prod_icon2.png';
-import icon3 from '../imgs/prod_icon3.png';
-import icon4 from '../imgs/prod_icon5.png';
-import icon5 from '../imgs/prod_icon7.png';
+import puckBass from '../imgs/products6.png';
+import puckBass2 from '../imgs/products2.png';
+import puckBass3 from '../imgs/products3.png';
+import puckBass4 from '../imgs/products4.png';
+import puckBass5 from '../imgs/products5.png';
 
 class Home_banner extends Component{
     render(){
@@ -20,12 +20,12 @@ class Home_banner extends Component{
                     </div>
                     <div className="banner_right">
                         <div className="header-image animated text-center"> 
-                            <a href="#Products" class="scrol"><img src={icon_main} className="main_img" alt="header" /> </a>
-                            <a href="#Products" class="scrol"><img className="header-image-icon left-icon" src={icon1} alt="header-icon"/> </a>
-                            <a href="#Products" class="scrol"><img className="header-image-icon right-icon" src={icon2} alt="header-icon"/></a>
-                            <a href="#Products" class="scrol"><img className="header-image-icon top-icon" src={icon3} alt="header-icon"/> </a>
-                            <a href="#Products" class="scrol"><img className="header-image-icon top-left-icon" src={icon4} alt="header-icon"/></a>
-                            <a href="#Products" class="scrol"><img className="header-image-icon top-right-icon" src={icon5} alt="header-icon" /></a>
+                            <a  href="#Products" className="scrol"><img src={icon_main} className="main_img" alt="header" /> </a>
+                            <a  href="#Products" className="scrol"><img className="header-image-icon left-icon" src={puckBass} alt="header-icon"/> </a>
+                            <a  href="#Products" className="scrol"><img className="header-image-icon right-icon" src={puckBass2} alt="header-icon"/></a>
+                            <a  href="#Products" className="scrol"><img className="header-image-icon top-icon" src={puckBass3} alt="header-icon"/> </a>
+                            <a  href="#Products" className="scrol"><img className="header-image-icon top-left-icon" src={puckBass4} alt="header-icon"/></a>
+                            <a  href="#Products" className="scrol"><img className="header-image-icon top-right-icon" src={puckBass5} alt="header-icon" /></a>
                         </div>
                     </div>
                 </div>

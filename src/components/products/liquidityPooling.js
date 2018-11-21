@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
-import prodImage from '../imgs/productImg.png';
+import prodImage from '../imgs/asset5.png';
+import prodImage2 from '../imgs/asset6.png';
 import prodIcon from '../imgs/prod_icon.png';
 import Contact from '../Home/contact';
 
@@ -24,11 +25,37 @@ class Home extends Component{
                         <ul>
                             <li className="clearfix">
                                 <div className="detaail">
+                                    <h3>THE LIQUIDITY PROBLEM </h3>
+                                    <p>Smaller centralized and decentralized exchanges do not have liquidity and volume that rival larger exchanges</p>
+                                    <p>Each exchange operates as a silo, there is no protocol to connect these ponds to form an ocean of liquidity </p>
+                                </div>
+                                <div className="prodImageSc">
+                                    <img src={prodImage} />
+                                </div>
+                            </li>
+                            <li className="clearfix">
+                                <div className="detaail lastFrst">
+                                    <h3>Solution</h3>
+                                    <p>Liquid Digital Asset Relay Platform (LDAR): </p>
+                                    <p>Provides inter and intra centralized and decentralized
+exchange liquidity with on-chain and off chain total
+transparency </p>
+                                    <p>On-chain fee swap settlement between exchanges </p>
+                                    <p>Bancor.Network provides cold start liquidity  </p>
+                                    <p>Supports native KYC/AML/Reward Tokens for compliance and
+fee settlement</p>
+                                </div>
+                                <div className="prodImageSc lasts">
+                                    <img src={prodImage2} />
+                                </div>
+                            </li>
+
+                            <li className="clearfix">
+                                <div className="detaail">
                                     <h3>Liquid Digital Asset Relay (LDAR)</h3>
                                     <p>A multi-chain Decentralized Exchange order liquidity protocol designed for high-performance, Blockchain Virtual Machine compatibility, decentralized data exchange, and complete transparency to off-chain market and trade data across UberDEX nodes as well as licensed Decentralized Exchange partners. The protocol enables all exchanges on the network to share liquidity pools while maintaining their high-performance characteristics and native exchange token compatibility across networks.</p>
                                 </div>
                                 <div className="prodImage">
-                                    <span><img src="ldar.png" /></span> 
                                 </div>
                             </li>
                             

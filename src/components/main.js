@@ -11,7 +11,13 @@ import education from './products/education';
 import liquidityPooling from './products/liquidityPooling';
 import Community from './products/Community';
 import securityAudits from './products/securityAudits';
-import walletProducts from './products/walletProducts';
+import DigitalAssetEnablement from './products/digitalAssetEnablement';
+
+import ExchangeSonar from './exchangeSonar';
+import DigitalAssetExchanges from './digitalAssetExchanges';
+import ByzantineConsulting from './byzantineConsulting';
+import AssetRelayPlatform from './assetRelayPlatform';
+import MetaDexPlatform from './metaDexPlatform';
 
 const Main = ()=> (
     <BrowserRouter>
@@ -25,7 +31,12 @@ const Main = ()=> (
     <Route path='/liquidityPooling' component={ liquidityPooling } />
     <Route path='/community' component={ Community } />
     <Route path='/securityAudits' component={ securityAudits } />
-    <Route path='/walletProducts' component={ walletProducts } />
+    <Route path='/digitalAssetEnablement' component={ DigitalAssetEnablement } />
+    <Route path='/exchangeSonar' component={ ExchangeSonar } />
+    <Route path='/digitalAssetExchanges' component={ DigitalAssetExchanges } />
+    <Route path='/byzantineConsulting' component={ ByzantineConsulting } />
+    <Route path='/assetRelayPlatform' component={ AssetRelayPlatform } />
+    <Route path='/metaDexPlatform' component={ MetaDexPlatform } />
 </Switch>
 </BrowserRouter>
 

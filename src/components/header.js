@@ -24,7 +24,7 @@ class Header extends Component{
                                 <li>
                                     <a href="#Products" className="scrol">Products</a>
                                     <div className="drop_prod">
-                                        <p><span><a href="/walletProducts" ><img className="grid__img layer" src={icon5} /></a></span> <a href="/walletProducts" >Wallet products</a> </p>
+                                        <p><span><a href="/digitalAssetEnablement" ><img className="grid__img layer" src={icon5} /></a></span> <a href="/digitalAssetEnablement" >Digital Asset Enablement</a> </p>
                                         <p><span><a href="/blockchainAggregation" ><img className="grid__img layer" src={icon2} /></a></span> <a href="/blockchainAggregation" >Blockchain aggregation</a></p>
                                         <p><span><a href="/decentralizedExchange" ><img className="grid__img layer" src={icon6} /></a></span> <a href="/decentralizedExchange" >Exchange Integrations</a></p>
                                         <p><span><a href="/liquidityPooling" ><img className="grid__img layer" src={icon3} /></a></span> <a href="/liquidityPooling" >Liquidity pooling</a></p>

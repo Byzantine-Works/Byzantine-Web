@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
 import prodImage from '../imgs/productImg.png';
+import products3 from '../imgs/products3.png';
+
 import prodIcon from '../imgs/prod_icon.png';
 import Contact from '../Home/contact';
 
@@ -23,13 +25,13 @@ class Home extends Component{
                     <div className="container">
                         <ul>
                             <li className="clearfix">
-                                <div className="detaail">
+                                <div className="detaail lastFrst">
                                     <h3>Empowering Blockchain Clients - From Ideation To Solution Advisory</h3>
                                     <h4>Mission</h4>
                                     <p>We ensure the success of our clients in building and deploying Infrastructure, Smart Contracts, and Decentralized Applications (DApp’s) onto high performance Blockchains and Distributed Ledger Technologies (DLT’s).</p>
                                 </div>
-                                <div className="prodImage">
-                                    <span><img src="labs.png" /></span> 
+                                <div className="prodImageSc lasts">
+                                    <img src={products3} /> 
                                 </div>
                             </li>
 
