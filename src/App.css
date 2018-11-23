@@ -1716,6 +1716,9 @@ body {
   border-radius: 8px;
   margin-bottom: 30px;
 }
+.Home_page.innweProd .wellcom_banner.innerWellcom {
+  background-color: #f9f9f9;
+}
 
 .Product_wrap ul li .prod_inner {
   min-height: 172px;
@@ -2032,6 +2035,67 @@ img.earth {animation-name: spin;
       transform: translateX(-5px)
   }
 }
+
+@keyframes newAnimation {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+  }
+}
+
+.Product_wrap ul li .prod_inner:hover span img {
+  transition-duration: 0.6s;
+  animation: newAnimation .5s linear alternate infinite;
+}
+.productDetail li .prodImageSc img:hover {
+  transition-duration: 0.6s;
+  animation: jumping .5s linear alternate infinite;
+}
+.productDetail li .prodImage img:hover {
+  transition-duration: 0.6s;
+  animation: jumping .5s linear alternate infinite;
+}
+.productDetail li .detaail.dots  p {
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-weight: bold;
+  color: #747474;
+}
+.Home_page.innweProd .wellcom_banner.innerWellcom h1 {
+  width: 400px;
+  margin-top: -70px;
+}
+
+.Home_page.innweProd .wellcom_banner.innerWellcom .main_banner p {
+  width: 327px;
+}
+
+.main_banner .banner_left img.earth {
+  width: 90%;
+}
+.productDetail li .detaail.dots p:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #47c2e2;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 0px #000000;
+  margin-right: 11px;
+}
+.banner_left p a {
+  color: #fff;
+}
+
 .light_version .wellcom_banner:after { background: url(particle-left.png); content:"";width: 474px;
   display: block;
   height: 300px;
@@ -2048,6 +2112,36 @@ img.earth {animation-name: spin;
   top: 0px;
   z-index: 99999;
   right: 0px;}
+
+  
+.light_version .wellcom_banner {
+  background-image: -webkit-linear-gradient(68deg,#0ca6bb,#0e9aad 18%,#359db9 30%,#59a0c5 47%,#7296c9 72%,rgba(141,122,218,.81)),-webkit-linear-gradient(270deg,#049cb0,#049cb0);
+  background-image: linear-gradient(22deg,#0ca6bb,#0e9aad 18%,#359db9 30%,#59a0c5 47%,#7296c9 72%,rgba(141,122,218,.81)),linear-gradient(180deg,#049cb0,#049cb0);
+  background-position: 0 0,0 0;
+}
+
+.light_version .wellcom_banner.innerWellcom {
+  background:url('components/imgs/headerBg2.png');
+  background-size: 100% 99%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: none;
+}
+.light_version .wellcom_banner.innerWellcom:after { 
+  display: none;}
+.light_version .wellcom_banner.innerWellcom:before { 
+  display: none;}
+  .innweProd {
+    background: #fafafa !important;
+}
+
+.light_version .wellcom_banner.innerWellcom h1 {
+    width: 100%;
+}
+
+.light_version .wellcom_banner.innerWellcom p {
+    width: 100%;
+}
 
   .team_wrap ul li .inners:hover figure {
     -webkit-transform: translate(0,-5px);

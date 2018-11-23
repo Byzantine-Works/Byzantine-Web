@@ -11,18 +11,36 @@ import github from '../imgs/github.svg';
 import prodImage2 from '../imgs/asset9.png';
 import Contact from '../Home/contact';
 
+import icon_main from '../imgs/icon_main5.png';
+import puckBass from '../imgs/products6.png';
+import puckBass2 from '../imgs/products2.png';
+import puckBass3 from '../imgs/products3.png';
+import puckBass4 from '../imgs/products4.png';
+import puckBass5 from '../imgs/products5.png';
+
 class Home extends Component{
     render(){
        
         return(
-            <div className="productPage communityP">
-                <div className="wellcom_banner">
+            <div className="productPage communityP innweProd">
+                <div className="wellcom_banner innerWellcom">
                     <Header />
-                    
-                    <div className="productTitle">
-                        <div className="container">
-                            <h4>Community</h4>
-                            <h6>Powered by <a href="http://libertyblock.io">Liberty Block</a>, these are the tools we've built to make every developer's life easier</h6>
+                    <div className="main_banner">
+                        <div className="container clearfix">
+                            <div className="banner_left">
+                                <h1>Community</h1>
+                                <p>Powered by <a href="http://libertyblock.io">Liberty Block</a>, these are the tools we've built to make every developer's life easier</p>
+                            </div>
+                            <div className="banner_right">
+                                <div className="header-image animated text-center"> 
+                                    <a  href="#Products" className="scrol"><img src={icon_main} className="main_img" alt="header" /> </a>
+                                    <a  href="#Products" className="scrol"><img className="header-image-icon left-icon" src={puckBass} alt="header-icon"/> </a>
+                                    <a  href="#Products" className="scrol"><img className="header-image-icon right-icon" src={puckBass2} alt="header-icon"/></a>
+                                    <a  href="#Products" className="scrol"><img className="header-image-icon top-icon" src={puckBass3} alt="header-icon"/> </a>
+                                    <a  href="#Products" className="scrol"><img className="header-image-icon top-left-icon" src={puckBass4} alt="header-icon"/></a>
+                                    <a  href="#Products" className="scrol"><img className="header-image-icon top-right-icon" src={puckBass5} alt="header-icon" /></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import earths from '../imgs/earths.png';
-import icon_main from '../imgs/icon_main3.png';
+import icon_main from '../imgs/icon_main5.png';
 import puckBass from '../imgs/products6.png';
 import puckBass2 from '../imgs/products2.png';
 import puckBass3 from '../imgs/products3.png';

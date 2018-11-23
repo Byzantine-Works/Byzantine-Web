@@ -11,8 +11,8 @@ class Home extends Component{
     render(){
        
         return(
-            <div className="Home_page">
-                <div className="wellcom_banner">
+            <div className="Home_page innweProd">
+                <div className="wellcom_banner innerWellcom">
                     <Header />
                     <Banner />
                 </div>
