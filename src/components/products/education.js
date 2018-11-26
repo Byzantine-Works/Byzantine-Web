@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
 import prodImage from '../imgs/productImg.png';
-import products3 from '../imgs/products7.png';
+import products3 from '../imgs/products8.png';
 import prodIcon from '../imgs/prod_icon.png';
 import Contact from '../Home/contact';
 

@@ -13,6 +13,17 @@ import puckBass3 from './imgs/products3.png';
 import puckBass4 from './imgs/products4.png';
 import puckBass5 from './imgs/products5.png';
 
+import app1 from './imgs/app3/a_main.png';
+import app2 from './imgs/app3/a1.png';
+import app3 from './imgs/app3/a2.png';
+
+
+import app5 from './imgs/app3/b_main.png';
+import app6 from './imgs/app3/b1.png';
+import app7 from './imgs/app3/b2.png';
+import app8 from './imgs/app3/b3.png';
+import app9 from './imgs/app3/b4.png';
+
 class Home extends Component{
     render(){
        
@@ -52,8 +63,12 @@ class Home extends Component{
                                     <p>Lack of coherent and enforceable regulatory rulesets as a
                                     platform within the exchanges </p>
                                 </div>
-                                <div className="prodImageSc">
-                                    <img src={prodImage} />
+                                <div className="prodImageSc Soner">
+                                    <div className="appImg">
+                                        <img className="imgM" src={app1} />
+                                        <img className="img1" src={app2} />
+                                        <img className="img2" src={app3} />
+                                    </div>
                                 </div>
                             </li>
                             <li className="clearfix">
@@ -66,7 +81,15 @@ class Home extends Component{
                                     <p>Automatically grey/black lists offending accounts</p>
                                 </div>
                                 <div className="prodImageSc lasts">
-                                    <img src={prodImage2} />
+                                    <div className="bigImages Soner">
+                                        <img className="imgM" src={app5} />
+                                        <div className="appImgT">
+                                            <img className="img1" src={app6} />
+                                            <img className="img2" src={app7} />
+                                            <img className="img3" src={app8} />
+                                            <img className="img4" src={app9} />
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>

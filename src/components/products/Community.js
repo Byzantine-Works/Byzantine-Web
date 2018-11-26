@@ -29,7 +29,7 @@ class Home extends Component{
                         <div className="container clearfix">
                             <div className="banner_left">
                                 <h1>Community</h1>
-                                <p>Powered by <a href="http://libertyblock.io">Liberty Block</a>, these are the tools we've built to make every developer's life easier</p>
+                                <p>Powered by Liberty Block, these are the tools we've built to make every developer's life easier, and we want to share them with the world. Like what you see? Want to know more?  Drop us a line, we'd love to hear from you!</p>
                             </div>
                             <div className="banner_right">
                                 <div className="header-image animated text-center"> 
@@ -47,15 +47,6 @@ class Home extends Component{
                 <div className="productDetail">
                     <div className="container">
                         <ul>
-                            <li className="clearfix">
-                                <div className="detaail lastFrst" style={{'textAlign': 'right'}}>
-                                    <h3>Committed to the future of EOS</h3>
-                                    <p>We built tools to make our lives easier, and we want to share them with the world.  Like what you see?  Want to know more?  We'd love to hear from you!  <a href="/#contact">Drop us a line</a>, we'd love to hear from you!</p>
-                                </div>
-                                <div className="prodImageSc lasts">
-                                  <img src={prodImage2} />
-                                </div>
-                            </li>
 
                             <li className="clearfix rightD">
                                 <div className="prodImageSc">

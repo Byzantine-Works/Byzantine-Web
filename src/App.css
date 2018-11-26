@@ -1902,6 +1902,155 @@ img.earth {animation-name: spin;
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
 }
+.productDetail li .prodImageSc .appImg {
+  display: inline-block;
+  position: relative;
+}
+.productDetail li .prodImageSc .appImg .img1, .productDetail li .prodImageSc .appImg .img2, .productDetail li .prodImageSc .appImg .img3 {
+  width: auto !important;
+  position: absolute;
+  top: 60px;
+  transition-duration: 0.3s;
+}
+.productDetail li .prodImageSc .appImg .img1:hover,
+ .productDetail li .prodImageSc .appImg .img2:hover,
+  .productDetail li .prodImageSc .appImg .img3:hover {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.productDetail li .prodImageSc .appImg .img1 {
+  left: 15px;
+}
+
+.productDetail li .prodImageSc .appImg .img2 {
+  right: 200px;
+}
+
+.productDetail li .prodImageSc .appImg .img3 {
+  right: 24px;
+}
+.productDetail li .prodImageSc .bigImages {
+  text-align: center;
+  position: relative;
+  width: 419px;
+  height: 423px;
+}
+
+.productDetail li .prodImageSc .bigImages img {
+  width: auto;
+}
+
+.productDetail li .prodImageSc .bigImages > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -97px 0px 0px -102px;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT img {
+  position: absolute;
+transition-duration: 0.3s;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img1 {
+  top: 0;
+  left: 0px;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img1:hover { top:0px; left:-5px; }
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img2 {
+  top: 0px;
+  right: 0px;
+}
+.productDetail li .prodImageSc .bigImages .appImgT img.img2:hover { top:0px; right:-5px; }
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img3 {
+  bottom: 3px;
+  right: 4px;
+}
+.productDetail li .prodImageSc .bigImages .appImgT img.img3:hover { bottom:-5px; right:0px; }
+.productDetail li .prodImageSc.Soner {
+  text-align: center;
+}
+
+.productDetail li .prodImageSc.Soner .appImg {}
+
+.productDetail li .prodImageSc.Soner .appImg img.img2 {
+  right: 27px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img4 {
+  top: 94px;
+  left: 0px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img2 {
+  top: 40px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img3 {
+  right: 10px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img1 {
+  top: 0;
+  left: 39px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img4:hover {
+  top: 94px;
+  left: -5px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img2:hover {
+  top: 40px;
+  right:-5px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img3:hover {
+  right: 10px;bottom:-5px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img1:hover {
+  top: -5px;
+  left: 39px;
+}
+.productDetail li .prodImageSc .bigImages.Soner.lastss .appImgT img.img3 {
+  right: 38px;
+}
+.productDetail li .prodImageSc .bigImages.Soner.lastss .appImgT img.img3:hover {
+  right: 38px; bottom:-5px
+}
+
+.Product_wrap ul li .prod_inner h3 {
+  color: #000;
+}
+
+.Product_wrap ul li .prod_inner:hover h3 {
+  color: #1a9bb0;
+}
+.header .menu_sections nav ul li .drop_prod p a.imgs {
+  float: left;
+  margin-left: -9px;
+}
+.header .menu_sections nav ul li .drop_prod p {
+  margin-bottom: -20px !important;
+}
+
+.header .menu_sections nav ul li .drop_prod p a.imgs img {
+  width: 64px;
+}
+
 
 .footer img {
   width: 170px;
@@ -2055,14 +2204,7 @@ img.earth {animation-name: spin;
   transition-duration: 0.6s;
   animation: newAnimation .5s linear alternate infinite;
 }
-.productDetail li .prodImageSc img:hover {
-  transition-duration: 0.6s;
-  animation: jumping .5s linear alternate infinite;
-}
-.productDetail li .prodImage img:hover {
-  transition-duration: 0.6s;
-  animation: jumping .5s linear alternate infinite;
-}
+
 .productDetail li .detaail.dots  p {
   font-size: 16px;
   margin-bottom: 14px;
@@ -2658,7 +2800,7 @@ img.earth {animation-name: spin;
 
 .productDetail li 
 .detaail.lastFrst {
-  width: 74%;
+  width: 53%;
 }
 .productDetail li .detaail  > a {
     font-size: 20px;
@@ -2682,9 +2824,98 @@ img.earth {animation-name: spin;
     vertical-align: -3px;
 }
 
+.productDetail li .prodImageSc.aggration img {
+    width: 250px;
+    margin: 0px 10px;
+}
 
 @media only screen and (max-width: 600px)
 {
+  .light_version .wellcom_banner.innerWellcom {
+    background: #4991b7 !important;
+}
+.productDetail li .prodImageSc .appImg {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.productDetail li .prodImageSc .appImg .img1 {
+  left: 12px;
+}
+
+.productDetail li .prodImageSc .appImg .img1, .productDetail li .prodImageSc .appImg .img2, .productDetail li .prodImageSc .appImg .img3 {
+  width: 76px !important;
+  top: 38px;
+}
+
+.productDetail li .prodImageSc .appImg .img2 {
+  right: 116px;
+}
+
+.productDetail li .prodImageSc .appImg .img3 {
+  right: 17px;
+}
+
+.productDetail li .prodImageSc .bigImages {
+  width: 319px;
+  margin: 0 auto !important;
+  height: 320px;
+  display: block;
+}
+
+.productDetail li .prodImageSc .bigImages > img {
+  width: 150px !important;
+  margin: -75px 0px 0px -75px;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img1 {
+  width: 179px;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img2 {
+  width: 147px;
+}
+
+.productDetail li .prodImageSc .bigImages .appImgT img.img3 {
+  width: 292px;
+}
+.productDetail li .prodImageSc.Soner .appImg img.img2, .productDetail li .prodImageSc.Soner .appImg img.img1 {
+  width: 117px !important;
+  top: 53px;
+}
+.productDetail li .prodImageSc .bigImages.Soner.lastss .appImgT img.img3 {
+  width: 201px;
+}
+.productDetail li .prodImageSc.Soner .appImg img.img2 {
+  right: 21px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img1 {
+  width: 212px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img2 {
+  width: 103px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img3 {
+  width: 227px;
+}
+
+.productDetail li .prodImageSc .bigImages.Soner .appImgT img.img4 {
+  width: 103px;
+  top: 73px;
+  left: 7px;
+}
+.productDetail li .detaail.lastFrst {
+  width: 100%;
+}
+
+.productDetail li .prodImageSc.lasts {
+  width: 100%;
+}
   .decentEx .productDetail li:last-child img {
     width: 250px;
     box-sizing: border-box;

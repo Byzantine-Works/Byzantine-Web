@@ -13,6 +13,18 @@ import puckBass3 from '../imgs/products3.png';
 import puckBass4 from '../imgs/products4.png';
 import puckBass5 from '../imgs/products5.png';
 
+import app1 from '../imgs/app1/a_main.png';
+import app2 from '../imgs/app1/a1.png';
+import app3 from '../imgs/app1/a2.png';
+import app4 from '../imgs/app1/a3.png';
+
+
+import app5 from '../imgs/app1/b_main.png';
+import app6 from '../imgs/app1/b1.png';
+import app7 from '../imgs/app1/b2.png';
+import app8 from '../imgs/app1/b3.png';
+
+
 class Home extends Component{
     render(){
        
@@ -44,14 +56,19 @@ class Home extends Component{
                     <div className="container">
                         <ul>
                             <li className="clearfix">
-                                <div className="detaail dots">
+                                <div className="detaail dots digitalAssets">
                                     <h3>THE INTEGRATION PROBLEM</h3>
                                     <p><span></span> DApp makers, wallet providers, crypto trading platforms, etc. find developing integrations with new blockchains difficult because each chain uses its own programming language, protocol, and syntax</p>
                                     <p><span></span> This creates resource and time burdens for companies while they grapple with understanding the nuances of each chain</p>
                                     <p><span></span> Companies are missing opportunities to capitalize </p>
                                 </div>
                                 <div className="prodImageSc">
-                                    <img src={prodImage} />
+                                    <div className="appImg">
+                                        <img className="imgM" src={app1} />
+                                        <img className="img1" src={app2} />
+                                        <img className="img2" src={app3} />
+                                        <img className="img3" src={app4} />
+                                    </div>
                                 </div>
                             </li>
                             <li className="clearfix">
@@ -63,14 +80,21 @@ class Home extends Component{
                                     <p><span></span>Partnered with Liberty Block for on-chain actions</p>
                                 </div>
                                 <div className="prodImageSc lasts">
-                                    <img src={prodImage2} />
+                                    <div className="bigImages">
+                                        <img className="imgM" src={app5} />
+                                        <div className="appImgT">
+                                            <img className="img1" src={app6} />
+                                            <img className="img2" src={app7} />
+                                            <img className="img3" src={app8} />
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div className="prdoctBottom">
-                    <div className="productInner">
+                    <div className="productInner digitalAssets">
                         <div className="container">
                             <ul>
                                 <li>

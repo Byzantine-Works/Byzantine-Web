@@ -15,6 +15,18 @@ import puckBass3 from '../imgs/products3.png';
 import puckBass4 from '../imgs/products4.png';
 import puckBass5 from '../imgs/products5.png';
 
+
+import app1 from '../imgs/app2/a_main.png';
+import app2 from '../imgs/app2/a1.png';
+import app3 from '../imgs/app2/a2.png';
+import app4 from '../imgs/app2/a3.png';
+
+
+import app5 from '../imgs/app2/b_main.png';
+import app6 from '../imgs/app2/b1.png';
+import app7 from '../imgs/app2/b2.png';
+import app8 from '../imgs/app2/b3.png';
+
 class Home extends Component{
     render(){
        
@@ -56,7 +68,12 @@ class Home extends Component{
                                     <p>This hinders business scalability and growth</p>
                                 </div>
                                 <div className="prodImageSc">
-                                    <img src={prodImage} />
+                                    <div className="appImg">
+                                        <img className="imgM" src={app1} />
+                                        <img className="img1" src={app2} />
+                                        <img className="img2" src={app3} />
+                                        <img className="img3" src={app4} />
+                                    </div>
                                 </div>
                             </li>
                             <li className="clearfix">
@@ -69,7 +86,14 @@ class Home extends Component{
                                     <p>Optional integration with the Liquid Digital Asset Relay Platform</p>
                                  </div>
                                 <div className="prodImageSc lasts">
-                                    <img src={prodImage2} />
+                                    <div className="bigImages">
+                                        <img className="imgM" src={app5} />
+                                        <div className="appImgT">
+                                            <img className="img1" src={app6} />
+                                            <img className="img2" src={app7} />
+                                            <img className="img3" src={app8} />
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             
@@ -101,7 +125,7 @@ class Home extends Component{
                                 <div className="detaail">
                                     <h3>Customers Include</h3>
                                 </div>
-                                <div className="prodImageSc">
+                                <div className="prodImageSc aggration">
                                     <img src={idex} />
                                     <img src={mbaex} />
                                 </div>
