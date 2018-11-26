@@ -37,8 +37,8 @@ class Home extends Component{
                     <div className="main_banner">
                         <div className="container clearfix">
                             <div className="banner_left">
-                                <h1>EOS Blockchain as a Service</h1>
-                                <p>Byzantine's API gateway enables instantaneous EOS integration for Centralized and Decentralized Exchanges, Wallets and Decentralized Applications, in a secure, scalable and reliable manner without the need to run a local EOS main net.</p>
+                                <h1>Blockchain as a Service</h1>
+                                <p>Byzantine's API gateway enables instantaneous integration for EOS and other blockchains for Centralized and Decentralized Exchanges, Wallets and Decentralized Applications, in a secure, scalable and reliable manner without the need to stand up a new mainnet for every blockchain.</p>
                             </div>
                             <div className="banner_right">
                                 <div className="header-image animated text-center"> 
@@ -78,8 +78,7 @@ class Home extends Component{
                             </li>
                             <li className="clearfix">
                                 <div className="detaail lastFrst  dots">
-                                    <h3>Solution</h3>
-                                    <p>BaaS Platform Digital Exchange Enablement:</p>
+                                    <h3>Solution:  BaaS Platform Digital Exchange Enablement</h3>
                                     <p>High performance cross chain token swap/trading ecosystem
                                     for centralized and decentralized exchanges</p>
                                     <p>Support for non-fungible tokens and algorithmic trading</p>

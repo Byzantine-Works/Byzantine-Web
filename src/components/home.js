@@ -17,7 +17,6 @@ class Home extends Component{
                     <Banner />
                 </div>
                 <Products />
-                <Team />
                 <Pricing />
                 <Contact />
                 <Footer />

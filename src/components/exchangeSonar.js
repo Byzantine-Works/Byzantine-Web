@@ -73,8 +73,7 @@ class Home extends Component{
                             </li>
                             <li className="clearfix">
                                 <div className="detaail lastFrst dots">
-                                    <h3>Solution</h3>
-                                    <p>Exchange Sonar: </p>
+                                    <h3>Solution:  Exchange Sonar</h3>
                                     <p>Semantic analysis and prediction of fraudulent activity</p>
                                     <p>Detects potential wash trade and pump and dump activities on an exchange</p>
                                     <p>Recognizes suspicious orders, trades and collusions</p>

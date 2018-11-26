@@ -71,13 +71,12 @@ class Home extends Component{
                             </li>
                             <li className="clearfix">
                                 <div className="detaail lastFrst dots">
-                                    <h3>Solution</h3>
-                                    <p>Liquid Digital Asset Relay Platform (LDAR): </p>
+                                    <h3>Solution:  Liquid Digital Asset Relay Platform (LDAR)</h3>
                                     <p>Provides inter and intra centralized and decentralized
 exchange liquidity with on-chain and off chain total
 transparency </p>
                                     <p>On-chain fee swap settlement between exchanges </p>
-                                    <p>Bancor.Network provides cold start liquidity  </p>
+                                    <p>Network partnerships provide cold start liquidity  </p>
                                     <p>Supports native KYC/AML/Reward Tokens for compliance and
 fee settlement</p>
                                 </div>
@@ -103,15 +102,6 @@ fee settlement</p>
                                 </div>
                             </li>
                             
-                            <li className="clearfix rightD">
-                                <div className="prodImageSc">
-                                    <img src="bancor.png" />
-                                </div>
-                                <div className="detaail">
-                                    <h3>From Cold Start To At Scale</h3>
-                                    <p>Partnered with <a href="http://bancor.network">Bancor.network</a> for cold start and at-scale limitless liquidity.</p>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
