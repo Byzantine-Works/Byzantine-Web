@@ -44,7 +44,6 @@ class Header extends Component{
                                         <p><a className="imgs" href="/community" ><img className="grid__img layer" src={puckBass9} /></a> <a href="/community" >Community</a></p>
                                     </div>    
                                 </li>
-                                <li><a href="#Team" className="scrol">Team</a></li>
                                 <li><a href="#pricing" className="scrol">Pricing</a></li>
                                 <li><a href="#contact" className="scrol">Contact</a></li>
                                 <li><a href="http://api.byzantine.works/docs/">API</a></li>
