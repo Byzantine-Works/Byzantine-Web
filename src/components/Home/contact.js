@@ -5,25 +5,25 @@ class Features extends Component{
     postSignup = (e) => {
     e.preventDefault();
      let data = {
-        first_name : this.first_name.value,
-        last_name: this.last_name.value,
+        names : this.first_name.value,
         email: this.email.value,
         phone: this.phone.value,
         msg: this.msg.value,
     };
-    fetch('http://localhost:5000/sendEmail/', {
-    method: 'POST',
-        headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-    },
+    
+    fetch('https://uberdex-admin.herokuapp.com/sendingEmail/', {
+     method: 'POST',
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json',
+  },
   body: JSON.stringify(data)
 
   }).then(response => 
-        response.json().then(data => ({
-            data: data,
-            status: response.status
-        })
+    response.json().then(data => ({
+        data: data,
+        status: response.status
+    })
     ).then(res => {
         
         if(res.data.error=='1')
@@ -33,7 +33,8 @@ class Features extends Component{
         }
         else if(res.data.error=='0')
         {
-            $('.msgs').show();
+            $('.formss').hide();
+            $('.msg').show();
         }
     
     }));
@@ -41,10 +42,21 @@ class Features extends Component{
     render(){
        
         return(
-            <div className="team_wrap contactBottom" id="contact">
+            <div className="team_wrap contactBottom contactforms" id="contact">
                 <div className="container">
-                     <iframe id="JotFormIFrame-83054564185460" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.me/83054564185460" frameborder="0" scrolling="no" > </iframe> 
-                    
+                    <h4>Have questions about our Products?</h4>
+                    <form className="formss">
+                        <label>Name</label>
+                        <input type="text" ref={(r) => this.first_name = r} />
+                        <label>Email</label>
+                        <input type="text"   ref={(r) => this.email = r}/>
+                        <label>Phone</label>
+                        <input type="text"  ref={(r) => this.phone = r} />
+                        <label>Message</label>
+                        <textarea  ref={(r) => this.msg = r}></textarea>
+                        <input type="submit" onClick={this.postSignup} />
+                    </form>
+                    <div className="msg">Successfully Send</div>
                 </div>
             </div>
         )

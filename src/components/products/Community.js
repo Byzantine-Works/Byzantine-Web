@@ -55,7 +55,7 @@ class Home extends Component{
                                 <div className="detaail">
                                     <h3>EOS Contract Cost Estimator</h3>
                                     <p>This utility estimates CPU, Memory, and RAM stakes requirements via a simple web ui.  Simply upload your ABI and WASM file and watch as the tool goes to work, regressing all the function calls within the smart contract and assesses total costs of deployment.</p>
-                                    <a href="#"><img src={github} />GitHub</a><a href="/contractestimator">Live Demo</a>
+                                    <a href="#"><img src={github} />GitHub</a><a href="#">Live Demo</a>
                                 </div>
                             </li>
                             
@@ -63,7 +63,7 @@ class Home extends Component{
                                 <div className="detaail" style={{'textAlign':'right'}}>
                                     <h3>Community EOS Blockchain as a Service API Middleware</h3>
                                     <p>A community enabled, free to use version of our <a href="/blockchainAggregation">EOS Blockchain as a Service</a> platform</p>
-                                    <a href="https://api.byzantine.works/docs">Live Demo</a>
+                                    <a href="#">Live Demo</a>
                                 </div>
                                 <div className="prodImageSc">
                                     <img src="api.png" />
@@ -80,7 +80,7 @@ class Home extends Component{
 universal crypto wallet built on the Byzantine API
 Gateway. This fee-less wallet lowers the barriers for
 small businesses accepting EOS and other crypto
-currencies</p><a href="#"><img src={github} />GitHub</a><a href="/eospaymentterminal">Live Demo</a>
+currencies</p><a href="#"><img src={github} />GitHub</a><a href="#">Live Demo</a>
 
                                 </div>
                             </li>
@@ -106,18 +106,6 @@ currencies</p><a href="#"><img src={github} />GitHub</a><a href="/eospaymentterm
                                     <p>The WORLDS FIRST Interactive Development Environment for EOS!!!  This simple to use development environment allows you to interact with the EOS testnets and mainnets or just on a local EOS node on your computer.  </p>
                                     <p>Code, compile, deploy, transfer EOS to wallets, estimate resources required, interact with Scatter, and more with point-and-click ease.  Cool!</p>
                                     <a href="#">Coming soon</a>
-                                </div>
-                            </li>
-
-                            <li className="clearfix ">
-                                <div className="detaail" style={{'textAlign':'right'}}>
-                                    <h3>Learning Blockchain Development with EOS and C++</h3>
-                                    <p>Explore the EOS dApp ecosystem and learn how to write and deploy smart contracts to the EOSIO blockchain.</p>
-                                    <p>Smart Contracts? They're here.  The EOS Blockchain?  Covered.  C++?  Yep!</p>
-                                    <a href="https://www.udemy.com/learning-blockchain-development-with-eos-and-cpp">Udemy Course</a>
-                                </div>
-                                <div className="prodImageSc">
-                                    <img src="udemy.png" />
                                 </div>
                             </li>
 
