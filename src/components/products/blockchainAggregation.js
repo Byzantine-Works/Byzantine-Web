@@ -78,8 +78,7 @@ class Home extends Component{
                             </li>
                             <li className="clearfix">
                                 <div className="detaail lastFrst  dots">
-                                    <h3>Solution</h3>
-                                    <p>BaaS Platform Digital Exchange Enablement:</p>
+                                    <h3>Solution:  BaaS Platform Digital Exchange Enablement</h3>
                                     <p>High performance cross chain token swap/trading ecosystem
                                     for centralized and decentralized exchanges</p>
                                     <p>Support for non-fungible tokens and algorithmic trading</p>

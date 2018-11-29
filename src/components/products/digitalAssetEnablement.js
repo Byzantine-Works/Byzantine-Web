@@ -73,8 +73,7 @@ class Home extends Component{
                             </li>
                             <li className="clearfix">
                                 <div className="detaail lastFrst dots">
-                                    <h3>Solution</h3>
-                                    <p>BaaS Platform Digital Asset Enablement:</p>
+                                    <h3>Solution:  BaaS Platform Digital Asset Enablement</h3>
                                     <p><span></span>92% Cheaper & Faster than deploying your own blockchain</p>
                                     <p><span></span>One API to access any blockchain via URL</p>
                                     <p><span></span>Partnered with Liberty Block for on-chain actions</p>

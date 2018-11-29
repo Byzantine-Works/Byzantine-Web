@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
 import estimator from '../imgs/estimator.png';
-import airdrop from '../imgs/airdrop1.PNG';
+import airdrop from '../imgs/airdrop1.png';
 import ideos from '../imgs/ideos.png';
 import stripe from '../imgs/stripe1.png';
 import prodImage from '../imgs/productImg.png';
@@ -55,7 +55,7 @@ class Home extends Component{
                                 <div className="detaail">
                                     <h3>EOS Contract Cost Estimator</h3>
                                     <p>This utility estimates CPU, Memory, and RAM stakes requirements via a simple web ui.  Simply upload your ABI and WASM file and watch as the tool goes to work, regressing all the function calls within the smart contract and assesses total costs of deployment.</p>
-                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/contract-estimator"><img src={github} />GitHub</a><a href="#">Live Demo</a>
+                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/contract-estimator"><img src={github} />GitHub</a><a href="/contractEstimator">Live Demo</a>
                                 </div>
                             </li>
                             
@@ -63,7 +63,7 @@ class Home extends Component{
                                 <div className="detaail" style={{'textAlign':'right'}}>
                                     <h3>Community EOS Blockchain as a Service API Middleware</h3>
                                     <p>A community enabled, free to use version of our <a href="/blockchainAggregation">EOS Blockchain as a Service</a> platform</p>
-                                    <a href="#">Live Demo</a>
+                                    <a href="https://api.byzantine.works/docs">Live Demo</a>
                                 </div>
                                 <div className="prodImageSc">
                                     <img src="api.png" />
@@ -80,7 +80,7 @@ class Home extends Component{
 universal crypto wallet built on the Byzantine API
 Gateway. This fee-less wallet lowers the barriers for
 small businesses accepting EOS and other crypto
-currencies</p><a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/eos-payment-terminal"><img src={github} />GitHub</a><a href="#">Live Demo</a>
+currencies</p><a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/eos-payment-terminal"><img src={github} />GitHub</a><a href="/eospaymentterminal">Live Demo</a>
 
                                 </div>
                             </li>

@@ -44,7 +44,7 @@ class Features extends Component{
         return(
             <div className="team_wrap contactBottom contactforms" id="contact">
                 <div className="container">
-                    <h4>Have questions about our Products?</h4>
+                    <h3>Have questions about our Products?</h3>
                     <form className="formss">
                         <label>Name</label>
                         <input type="text" ref={(r) => this.first_name = r} />
@@ -56,7 +56,7 @@ class Features extends Component{
                         <textarea  ref={(r) => this.msg = r}></textarea>
                         <input type="submit" onClick={this.postSignup} />
                     </form>
-                    <div className="msg">Successfully Send</div>
+                    <div className="msg">Thank you for reaching out.  We will contact you shortly.</div>
                 </div>
             </div>
         )
