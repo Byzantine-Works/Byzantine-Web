@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from '../headerInner';
 import Footer from '../footer';
 import estimator from '../imgs/estimator.png';
-import airdrop from '../imgs/airdrop1.png';
+import airdrop from '../imgs/airdrop1.PNG';
 import ideos from '../imgs/ideos.png';
 import stripe from '../imgs/stripe1.png';
 import prodImage from '../imgs/productImg.png';
@@ -55,7 +55,7 @@ class Home extends Component{
                                 <div className="detaail">
                                     <h3>EOS Contract Cost Estimator</h3>
                                     <p>This utility estimates CPU, Memory, and RAM stakes requirements via a simple web ui.  Simply upload your ABI and WASM file and watch as the tool goes to work, regressing all the function calls within the smart contract and assesses total costs of deployment.</p>
-                                    <a href="#"><img src={github} />GitHub</a><a href="#">Live Demo</a>
+                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/contract-estimator"><img src={github} />GitHub</a><a href="#">Live Demo</a>
                                 </div>
                             </li>
                             
@@ -80,7 +80,7 @@ class Home extends Component{
 universal crypto wallet built on the Byzantine API
 Gateway. This fee-less wallet lowers the barriers for
 small businesses accepting EOS and other crypto
-currencies</p><a href="#"><img src={github} />GitHub</a><a href="#">Live Demo</a>
+currencies</p><a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/eos-payment-terminal"><img src={github} />GitHub</a><a href="#">Live Demo</a>
 
                                 </div>
                             </li>
@@ -90,7 +90,7 @@ currencies</p><a href="#"><img src={github} />GitHub</a><a href="#">Live Demo</a
                                     <h3>EOS Airdrop Tool</h3>
                                     <p>Built by developers for developers, this command line interface tool is a comprehensive EOS utility to simplify all EOS related on-chain functionality such as account creation, voting, delegating, undelegating, buy/sell RAM, transfer and staking.</p>
                                     <p>It dramatically simplifies the process of Airdrops for token launches.  It provides a wizard that walks through a set of questions to create token-contract, deploy it, and then issue tokens and airdrop them to users. This utility also estimates RAM and stake requirement based on the tokenomics for EOS vs Token ratios.</p>
-                                    <a href="#"><img src={github} />GitHub</a>
+                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/airdrop"><img src={github} />GitHub</a>
                                 </div>
                                 <div className="prodImageSc">
                                     <img src={airdrop} />
@@ -105,7 +105,7 @@ currencies</p><a href="#"><img src={github} />GitHub</a><a href="#">Live Demo</a
                                     <h3>idEOS</h3>
                                     <p>The WORLDS FIRST Interactive Development Environment for EOS!!!  This simple to use development environment allows you to interact with the EOS testnets and mainnets or just on a local EOS node on your computer.  </p>
                                     <p>Code, compile, deploy, transfer EOS to wallets, estimate resources required, interact with Scatter, and more with point-and-click ease.  Cool!</p>
-                                    <a href="#">Coming soon</a>
+                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/iDeos"><img src={github} />GitHub</a>
                                 </div>
                             </li>
 
