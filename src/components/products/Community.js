@@ -63,7 +63,8 @@ class Home extends Component{
                                 <div className="detaail" style={{'textAlign':'right'}}>
                                     <h3>Community EOS Blockchain as a Service API Middleware</h3>
                                     <p>A community enabled, free to use version of our <a href="/blockchainAggregation">EOS Blockchain as a Service</a> platform</p>
-                                    <a href="https://api.byzantine.works/docs">Live Demo</a>
+                                    
+                                    <a href="https://github.com/Byzantine-Works/Simple-Eos-Api"><img src={github} />GitHub</a>
                                 </div>
                                 <div className="prodImageSc">
                                     <img src="api.png" />
@@ -106,6 +107,17 @@ currencies</p><a href="https://github.com/Byzantine-Works/EOS-Community/tree/mas
                                     <p>The WORLDS FIRST Interactive Development Environment for EOS!!!  This simple to use development environment allows you to interact with the EOS testnets and mainnets or just on a local EOS node on your computer.  </p>
                                     <p>Code, compile, deploy, transfer EOS to wallets, estimate resources required, interact with Scatter, and more with point-and-click ease.  Cool!</p>
                                     <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/iDeos"><img src={github} />GitHub</a>
+                                </div>
+                            </li>
+                            <li className="clearfix ">
+                                <div className="detaail" style={{'textAlign':'right'}}>
+                                    <h3>Learning Blockchain Development with EOS and C++</h3>
+                                    <p>Explore the EOS dApp ecosystem and learn how to write and deploy smart contracts to the EOSIO blockchain.</p>
+                                    <p>Smart Contracts? They're here.  The EOS Blockchain?  Covered.  C++?  Yep!</p>
+                                    <a href="https://www.udemy.com/learning-blockchain-development-with-eos-and-cpp">Udemy Course</a>
+                                </div>
+                                <div className="prodImageSc">
+                                    <img src="udemy.png" />
                                 </div>
                             </li>
 
