@@ -116,7 +116,7 @@ currencies</p><a href="https://github.com/Byzantine-Works/EOS-Community/tree/mas
                                     <p>Smart Contracts? They're here.  The EOS Blockchain?  Covered.  C++?  Yep!</p>
                                     <a href="https://www.udemy.com/learning-blockchain-development-with-eos-and-cpp">Udemy Course</a>
                                 </div>
-                                <div className="prodImageSc">
+                                <div className="prodImageSc" style={{'width':'250px'}}>
                                     <img src="udemy.png" />
                                 </div>
                             </li>
