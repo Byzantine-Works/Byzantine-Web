@@ -55,7 +55,7 @@ class Home extends Component{
                                 <div className="detaail">
                                     <h3>EOS Contract Cost Estimator</h3>
                                     <p>This utility estimates CPU, Memory, and RAM stakes requirements via a simple web ui.  Simply upload your ABI and WASM file and watch as the tool goes to work, regressing all the function calls within the smart contract and assesses total costs of deployment.</p>
-                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/contract-estimator"><img src={github} />GitHub</a><a href="/contractEstimator">Live Demo</a>
+                                    <a href="https://github.com/Byzantine-Works/EOS-Community/tree/master/contract-estimator"><img src={github} />GitHub</a><a href="/contractestimator">Live Demo</a>
                                 </div>
                             </li>
                             
